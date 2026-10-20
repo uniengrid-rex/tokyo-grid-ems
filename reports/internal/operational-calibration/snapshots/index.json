@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1.0.0",
   "timezone": "Asia/Tokyo",
-  "generatedAt": "2026-10-20T16:08:31+09:00",
+  "generatedAt": "2026-10-20T17:57:41+09:00",
   "retentionDays": 14,
   "maxPerDay": 24,
   "dates": [
@@ -151,17 +151,17 @@
     {
       "date": "2026-10-20",
       "path": "reports/internal/operational-calibration/snapshots/2026-10-20/index.json",
-      "snapshotCount": 4,
+      "snapshotCount": 5,
       "latest": {
         "date": "2026-10-20",
-        "generatedAt": "2026-10-20T16:08:31+09:00",
-        "path": "reports/internal/operational-calibration/snapshots/2026-10-20/2026-10-20T16-08-31-09-00.json",
+        "generatedAt": "2026-10-20T17:57:41+09:00",
+        "path": "reports/internal/operational-calibration/snapshots/2026-10-20/2026-10-20T17-57-41-09-00.json",
         "model": "lgbm_quantile_q50",
         "applied": true,
-        "observedHours": 16,
+        "observedHours": 17,
         "fallbackActualHours": 0,
-        "lastObservedHour": 15,
-        "baseAdjustmentMw": 867.4,
+        "lastObservedHour": 16,
+        "baseAdjustmentMw": 914.1,
         "appliedDayBiasMw": 0.0,
         "appliedRegimeReason": [
           "intraday_observed_residual",
@@ -169,10 +169,10 @@
         ],
         "sourceConfidence": {
           "level": "observed",
-          "actualHours": 16,
-          "usableObservedHours": 16,
+          "actualHours": 17,
+          "usableObservedHours": 17,
           "fallbackIgnoredHours": 0,
-          "missingHours": 8
+          "missingHours": 7
         },
         "businessTypeTransitionPriorApplied": false,
         "businessTypeTransitionApplied": false,
@@ -191,9 +191,9 @@
         "eveningDeclineContinuityGuardApplied": false,
         "eveningDeclineContinuityMaxReductionMw": 0.0,
         "negResidualRecoveryDampingApplied": false,
-        "residualCarryoverHours": 8,
+        "residualCarryoverHours": 7,
         "changedForecastHours": 24,
-        "maxAbsCalibrationDeltaMw": 526.0
+        "maxAbsCalibrationDeltaMw": 554.2
       }
     }
   ]
