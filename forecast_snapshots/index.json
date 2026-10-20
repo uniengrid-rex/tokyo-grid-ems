@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1.0.0",
   "timezone": "Asia/Tokyo",
-  "generatedAt": "2026-10-21T01:50:03+09:00",
+  "generatedAt": "2026-10-21T03:57:21+09:00",
   "retentionDays": 21,
   "maxPerDay": 16,
   "dates": [
@@ -327,12 +327,12 @@
     {
       "date": "2026-10-21",
       "path": "forecast_snapshots/2026-10-21/index.json",
-      "snapshotCount": 10,
+      "snapshotCount": 11,
       "latest": {
         "targetDate": "2026-10-21",
-        "generatedAt": "2026-10-21T01:50:03+09:00",
+        "generatedAt": "2026-10-21T03:57:21+09:00",
         "runType": "intraday",
-        "path": "forecast_snapshots/2026-10-21/2026-10-21T01-50-03-09-00.json",
+        "path": "forecast_snapshots/2026-10-21/2026-10-21T03-57-21-09-00.json",
         "model": {
           "name": "lgbm_quantile_q50_intraday_residual",
           "version": "mvp-1",
@@ -341,27 +341,27 @@
           "artifactSha256": "c2914b699dc306c61c6eb8f777d99fdebf1f7336dbf83bd01d851156e8b0cdd3"
         },
         "peak": {
-          "forecastMw": 37111.0,
+          "forecastMw": 37154.7,
           "at": "2026-10-21T11:00:00+09:00",
           "interval": {
-            "p95Lower": 34466.8,
-            "p95Upper": 38763.6
+            "p95Lower": 34353.9,
+            "p95Upper": 38905.2
           }
         },
-        "observedActualHoursAtGeneration": 1,
+        "observedActualHoursAtGeneration": 3,
         "fallbackActualHoursAtGeneration": 0,
-        "lastObservedActualHour": 0
+        "lastObservedActualHour": 2
       }
     },
     {
       "date": "2026-10-22",
       "path": "forecast_snapshots/2026-10-22/index.json",
-      "snapshotCount": 3,
+      "snapshotCount": 4,
       "latest": {
         "targetDate": "2026-10-22",
-        "generatedAt": "2026-10-21T01:50:03+09:00",
+        "generatedAt": "2026-10-21T03:57:21+09:00",
         "runType": "intraday",
-        "path": "forecast_snapshots/2026-10-22/2026-10-21T01-50-03-09-00.json",
+        "path": "forecast_snapshots/2026-10-22/2026-10-21T03-57-21-09-00.json",
         "model": {
           "name": "lgbm_quantile_q50",
           "version": "mvp-1",
@@ -370,11 +370,11 @@
           "artifactSha256": "c2914b699dc306c61c6eb8f777d99fdebf1f7336dbf83bd01d851156e8b0cdd3"
         },
         "peak": {
-          "forecastMw": 36373.2,
+          "forecastMw": 36671.0,
           "at": "2026-10-22T14:00:00+09:00",
           "interval": {
-            "p95Lower": 33136.1,
-            "p95Upper": 38396.5
+            "p95Lower": 34026.8,
+            "p95Upper": 38323.6
           }
         },
         "observedActualHoursAtGeneration": 0,
