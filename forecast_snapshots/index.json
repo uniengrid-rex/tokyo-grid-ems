@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1.0.0",
   "timezone": "Asia/Tokyo",
-  "generatedAt": "2026-10-22T13:56:05+09:00",
+  "generatedAt": "2026-10-22T16:12:56+09:00",
   "retentionDays": 21,
   "maxPerDay": 16,
   "dates": [
@@ -330,9 +330,9 @@
       "snapshotCount": 16,
       "latest": {
         "targetDate": "2026-10-22",
-        "generatedAt": "2026-10-22T13:56:05+09:00",
+        "generatedAt": "2026-10-22T16:12:56+09:00",
         "runType": "intraday",
-        "path": "forecast_snapshots/2026-10-22/2026-10-22T13-56-05-09-00.json",
+        "path": "forecast_snapshots/2026-10-22/2026-10-22T16-12-56-09-00.json",
         "model": {
           "name": "lgbm_quantile_q50_intraday_residual",
           "version": "mvp-1",
@@ -348,20 +348,20 @@
             "p95Upper": 34720.6
           }
         },
-        "observedActualHoursAtGeneration": 13,
+        "observedActualHoursAtGeneration": 16,
         "fallbackActualHoursAtGeneration": 0,
-        "lastObservedActualHour": 12
+        "lastObservedActualHour": 15
       }
     },
     {
       "date": "2026-10-23",
       "path": "forecast_snapshots/2026-10-23/index.json",
-      "snapshotCount": 10,
+      "snapshotCount": 11,
       "latest": {
         "targetDate": "2026-10-23",
-        "generatedAt": "2026-10-22T13:56:05+09:00",
+        "generatedAt": "2026-10-22T16:12:56+09:00",
         "runType": "intraday",
-        "path": "forecast_snapshots/2026-10-23/2026-10-22T13-56-05-09-00.json",
+        "path": "forecast_snapshots/2026-10-23/2026-10-22T16-12-56-09-00.json",
         "model": {
           "name": "lgbm_quantile_q50",
           "version": "mvp-1",
@@ -370,11 +370,11 @@
           "artifactSha256": "c2914b699dc306c61c6eb8f777d99fdebf1f7336dbf83bd01d851156e8b0cdd3"
         },
         "peak": {
-          "forecastMw": 31163.2,
-          "at": "2026-10-23T13:00:00+09:00",
+          "forecastMw": 31479.7,
+          "at": "2026-10-23T14:00:00+09:00",
           "interval": {
-            "p95Lower": 27413.2,
-            "p95Upper": 34502.7
+            "p95Lower": 27729.7,
+            "p95Upper": 34364.8
           }
         },
         "observedActualHoursAtGeneration": 0,
