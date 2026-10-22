@@ -29,51 +29,51 @@
     },
     {
       "ts": "2026-10-23T01:00:00+09:00",
-      "forecastMw": 21589.4,
-      "p95LowerMw": 20367.0,
-      "p95UpperMw": 23545.2,
-      "p99LowerMw": 19144.6,
-      "p99UpperMw": 25501.0
+      "forecastMw": 21648.3,
+      "p95LowerMw": 20453.3,
+      "p95UpperMw": 23560.2,
+      "p99LowerMw": 19258.3,
+      "p99UpperMw": 25472.1
     },
     {
       "ts": "2026-10-23T02:00:00+09:00",
-      "forecastMw": 21397.9,
-      "p95LowerMw": 20237.4,
-      "p95UpperMw": 23254.7,
-      "p99LowerMw": 19076.9,
-      "p99UpperMw": 25111.5
+      "forecastMw": 21366.2,
+      "p95LowerMw": 20180.2,
+      "p95UpperMw": 23263.8,
+      "p99LowerMw": 18994.2,
+      "p99UpperMw": 25161.4
     },
     {
       "ts": "2026-10-23T03:00:00+09:00",
-      "forecastMw": 21515.5,
-      "p95LowerMw": 20473.6,
-      "p95UpperMw": 23182.4,
-      "p99LowerMw": 19431.7,
-      "p99UpperMw": 24849.3
+      "forecastMw": 21529.7,
+      "p95LowerMw": 20493.7,
+      "p95UpperMw": 23187.3,
+      "p99LowerMw": 19457.7,
+      "p99UpperMw": 24844.9
     },
     {
       "ts": "2026-10-23T04:00:00+09:00",
-      "forecastMw": 21760.3,
-      "p95LowerMw": 20727.3,
-      "p95UpperMw": 23413.1,
-      "p99LowerMw": 19694.3,
-      "p99UpperMw": 25065.9
+      "forecastMw": 21744.5,
+      "p95LowerMw": 20679.8,
+      "p95UpperMw": 23448.0,
+      "p99LowerMw": 19615.0,
+      "p99UpperMw": 25151.5
     },
     {
       "ts": "2026-10-23T05:00:00+09:00",
-      "forecastMw": 22442.5,
-      "p95LowerMw": 19993.5,
-      "p95UpperMw": 24239.9,
-      "p99LowerMw": 17544.5,
-      "p99UpperMw": 26037.3
+      "forecastMw": 22454.5,
+      "p95LowerMw": 19997.8,
+      "p95UpperMw": 24145.9,
+      "p99LowerMw": 17541.0,
+      "p99UpperMw": 25837.3
     },
     {
       "ts": "2026-10-23T06:00:00+09:00",
-      "forecastMw": 23318.9,
-      "p95LowerMw": 20338.1,
-      "p95UpperMw": 25647.9,
-      "p99LowerMw": 17357.3,
-      "p99UpperMw": 27976.9
+      "forecastMw": 23325.5,
+      "p95LowerMw": 20336.8,
+      "p95UpperMw": 25646.6,
+      "p99LowerMw": 17348.0,
+      "p99UpperMw": 27967.7
     },
     {
       "ts": "2026-10-23T07:00:00+09:00",
@@ -205,11 +205,11 @@
     },
     {
       "ts": "2026-10-23T23:00:00+09:00",
-      "forecastMw": 23878.0,
-      "p95LowerMw": 22630.9,
-      "p95UpperMw": 25125.1,
-      "p99LowerMw": 21383.8,
-      "p99UpperMw": 26372.2
+      "forecastMw": 23875.4,
+      "p95LowerMw": 22628.3,
+      "p95UpperMw": 25122.5,
+      "p99LowerMw": 21381.2,
+      "p99UpperMw": 26369.6
     }
   ],
   "intervalCalibration": {
@@ -217,7 +217,7 @@
     "availability": "ok",
     "method": "lead_aware_conformal_target_width",
     "source": "finalized_actual_vs_issued_forecast",
-    "issuedAt": "2026-10-23T00:43:14+09:00",
+    "issuedAt": "2026-10-23T01:51:54+09:00",
     "artifactSha256": "c2914b699dc306c61c6eb8f777d99fdebf1f7336dbf83bd01d851156e8b0cdd3",
     "servingPolicyFingerprint": "ba4d14312e56659c46a87b8e9c13750b51e93334dcb59661b8d37e6f2d0647bc",
     "floorsMwByTimeBand": {},
@@ -250,18 +250,18 @@
           "application": "native_fallback"
         },
         "1": {
-          "leadBand": "0_2h",
+          "leadBand": null,
           "timeBand": "overnight",
           "groups": {
             "same_regime": {
-              "samples": 9,
-              "days": 4,
-              "quantileMw": 489.8
+              "samples": 0,
+              "days": 0,
+              "quantileMw": null
             },
             "all_regime": {
-              "samples": 19,
-              "days": 6,
-              "quantileMw": 489.8
+              "samples": 0,
+              "days": 0,
+              "quantileMw": null
             }
           },
           "application": "native_fallback"
@@ -284,18 +284,18 @@
           "application": "native_fallback"
         },
         "3": {
-          "leadBand": "2_4h",
+          "leadBand": "0_2h",
           "timeBand": "overnight",
           "groups": {
             "same_regime": {
-              "samples": 2,
-              "days": 1,
-              "quantileMw": 181.0
+              "samples": 9,
+              "days": 4,
+              "quantileMw": 489.8
             },
             "all_regime": {
-              "samples": 10,
-              "days": 3,
-              "quantileMw": 181.0
+              "samples": 19,
+              "days": 6,
+              "quantileMw": 489.8
             }
           },
           "application": "native_fallback"
@@ -318,18 +318,18 @@
           "application": "native_fallback"
         },
         "5": {
-          "leadBand": "4_8h",
+          "leadBand": "2_4h",
           "timeBand": "overnight",
           "groups": {
             "same_regime": {
-              "samples": 0,
-              "days": 0,
-              "quantileMw": null
+              "samples": 2,
+              "days": 1,
+              "quantileMw": 181.0
             },
             "all_regime": {
-              "samples": 6,
-              "days": 1,
-              "quantileMw": 174.2
+              "samples": 10,
+              "days": 3,
+              "quantileMw": 181.0
             }
           },
           "application": "native_fallback"
@@ -386,18 +386,18 @@
           "application": "native_fallback"
         },
         "9": {
-          "leadBand": "8_24h",
+          "leadBand": "4_8h",
           "timeBand": "morning",
           "groups": {
             "same_regime": {
-              "samples": 1,
-              "days": 1,
-              "quantileMw": 1630.4
+              "samples": 13,
+              "days": 4,
+              "quantileMw": 2450.0
             },
             "all_regime": {
-              "samples": 7,
-              "days": 3,
-              "quantileMw": 1630.4
+              "samples": 23,
+              "days": 6,
+              "quantileMw": 2450.0
             }
           },
           "application": "native_fallback"
@@ -658,6 +658,8 @@
       "incomplete_actual": 0
     },
     "selectedSamples": 757,
-    "preservedObservedHours": []
+    "preservedObservedHours": [
+      0
+    ]
   }
 }
