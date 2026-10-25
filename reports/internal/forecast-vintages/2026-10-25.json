@@ -1209,7 +1209,43 @@
           "tepcoForecastMw": 23150.0
         }
       ]
+    },
+    {
+      "capturedAt": "2026-10-25T19:50:32+09:00",
+      "captureOrigin": "live_pipeline",
+      "runType": "intraday",
+      "modelName": "lgbm_quantile_q50_intraday_residual",
+      "series": [
+        {
+          "ts": "2026-10-25T20:00:00+09:00",
+          "hour": 20,
+          "leadMinutes": 9.5,
+          "modelForecastMw": 25954.6,
+          "tepcoForecastMw": 26750.0
+        },
+        {
+          "ts": "2026-10-25T21:00:00+09:00",
+          "hour": 21,
+          "leadMinutes": 69.5,
+          "modelForecastMw": 25157.4,
+          "tepcoForecastMw": 25450.0
+        },
+        {
+          "ts": "2026-10-25T22:00:00+09:00",
+          "hour": 22,
+          "leadMinutes": 129.5,
+          "modelForecastMw": 24315.4,
+          "tepcoForecastMw": 24230.0
+        },
+        {
+          "ts": "2026-10-25T23:00:00+09:00",
+          "hour": 23,
+          "leadMinutes": 189.5,
+          "modelForecastMw": 23417.9,
+          "tepcoForecastMw": 23090.0
+        }
+      ]
     }
   ],
-  "snapshotCount": 11
+  "snapshotCount": 12
 }
