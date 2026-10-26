@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1.0.0",
   "timezone": "Asia/Tokyo",
-  "generatedAt": "2026-10-26T16:17:51+09:00",
+  "generatedAt": "2026-10-26T18:05:46+09:00",
   "retentionDays": 14,
   "maxPerDay": 24,
   "dates": [
@@ -292,17 +292,17 @@
     {
       "date": "2026-10-26",
       "path": "reports/internal/operational-calibration/snapshots/2026-10-26/index.json",
-      "snapshotCount": 11,
+      "snapshotCount": 12,
       "latest": {
         "date": "2026-10-26",
-        "generatedAt": "2026-10-26T16:17:51+09:00",
-        "path": "reports/internal/operational-calibration/snapshots/2026-10-26/2026-10-26T16-17-51-09-00.json",
+        "generatedAt": "2026-10-26T18:05:46+09:00",
+        "path": "reports/internal/operational-calibration/snapshots/2026-10-26/2026-10-26T18-05-46-09-00.json",
         "model": "lgbm_quantile_q50",
         "applied": true,
-        "observedHours": 16,
+        "observedHours": 18,
         "fallbackActualHours": 0,
-        "lastObservedHour": 15,
-        "baseAdjustmentMw": 1020.4,
+        "lastObservedHour": 17,
+        "baseAdjustmentMw": 866.1,
         "appliedDayBiasMw": 0.0,
         "appliedRegimeReason": [
           "intraday_observed_residual",
@@ -310,10 +310,10 @@
         ],
         "sourceConfidence": {
           "level": "observed",
-          "actualHours": 16,
-          "usableObservedHours": 16,
+          "actualHours": 18,
+          "usableObservedHours": 18,
           "fallbackIgnoredHours": 0,
-          "missingHours": 8
+          "missingHours": 6
         },
         "businessTypeTransitionPriorApplied": false,
         "businessTypeTransitionApplied": false,
@@ -332,9 +332,9 @@
         "eveningDeclineContinuityGuardApplied": false,
         "eveningDeclineContinuityMaxReductionMw": 0.0,
         "negResidualRecoveryDampingApplied": false,
-        "residualCarryoverHours": 8,
+        "residualCarryoverHours": 6,
         "changedForecastHours": 24,
-        "maxAbsCalibrationDeltaMw": 938.7
+        "maxAbsCalibrationDeltaMw": 908.2
       }
     }
   ]
