@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1.0.0",
   "timezone": "Asia/Tokyo",
-  "generatedAt": "2026-10-27T04:05:12+09:00",
+  "generatedAt": "2026-10-27T05:52:28+09:00",
   "retentionDays": 14,
   "maxPerDay": 24,
   "dates": [
@@ -341,27 +341,27 @@
     {
       "date": "2026-10-27",
       "path": "reports/internal/operational-calibration/snapshots/2026-10-27/index.json",
-      "snapshotCount": 5,
+      "snapshotCount": 6,
       "latest": {
         "date": "2026-10-27",
-        "generatedAt": "2026-10-27T04:05:12+09:00",
-        "path": "reports/internal/operational-calibration/snapshots/2026-10-27/2026-10-27T04-05-12-09-00.json",
+        "generatedAt": "2026-10-27T05:52:28+09:00",
+        "path": "reports/internal/operational-calibration/snapshots/2026-10-27/2026-10-27T05-52-28-09-00.json",
         "model": "lgbm_quantile_q50",
         "applied": true,
-        "observedHours": 3,
+        "observedHours": 5,
         "fallbackActualHours": 0,
-        "lastObservedHour": 2,
-        "baseAdjustmentMw": 181.8,
+        "lastObservedHour": 4,
+        "baseAdjustmentMw": 129.1,
         "appliedDayBiasMw": 0.0,
         "appliedRegimeReason": [
           "intraday_observed_residual"
         ],
         "sourceConfidence": {
           "level": "observed",
-          "actualHours": 3,
-          "usableObservedHours": 3,
+          "actualHours": 5,
+          "usableObservedHours": 5,
           "fallbackIgnoredHours": 0,
-          "missingHours": 21
+          "missingHours": 19
         },
         "businessTypeTransitionPriorApplied": false,
         "businessTypeTransitionApplied": false,
@@ -380,9 +380,9 @@
         "eveningDeclineContinuityGuardApplied": false,
         "eveningDeclineContinuityMaxReductionMw": 0.0,
         "negResidualRecoveryDampingApplied": false,
-        "residualCarryoverHours": 21,
+        "residualCarryoverHours": 19,
         "changedForecastHours": 24,
-        "maxAbsCalibrationDeltaMw": 181.8
+        "maxAbsCalibrationDeltaMw": 129.1
       }
     }
   ]
