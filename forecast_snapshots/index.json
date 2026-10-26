@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1.0.0",
   "timezone": "Asia/Tokyo",
-  "generatedAt": "2026-10-26T11:01:55+09:00",
+  "generatedAt": "2026-10-26T11:57:59+09:00",
   "retentionDays": 21,
   "maxPerDay": 16,
   "dates": [
@@ -330,9 +330,9 @@
       "snapshotCount": 16,
       "latest": {
         "targetDate": "2026-10-26",
-        "generatedAt": "2026-10-26T11:01:55+09:00",
+        "generatedAt": "2026-10-26T11:57:59+09:00",
         "runType": "intraday",
-        "path": "forecast_snapshots/2026-10-26/2026-10-26T11-01-55-09-00.json",
+        "path": "forecast_snapshots/2026-10-26/2026-10-26T11-57-59-09-00.json",
         "model": {
           "name": "lgbm_quantile_q50_intraday_residual",
           "version": "mvp-1",
@@ -341,27 +341,27 @@
           "artifactSha256": "c2914b699dc306c61c6eb8f777d99fdebf1f7336dbf83bd01d851156e8b0cdd3"
         },
         "peak": {
-          "forecastMw": 32697.5,
-          "at": "2026-10-26T11:00:00+09:00",
+          "forecastMw": 32514.3,
+          "at": "2026-10-26T10:00:00+09:00",
           "interval": {
-            "p95Lower": 28947.5,
-            "p95Upper": 35645.0
+            "p95Lower": 28764.3,
+            "p95Upper": 35990.8
           }
         },
-        "observedActualHoursAtGeneration": 10,
+        "observedActualHoursAtGeneration": 11,
         "fallbackActualHoursAtGeneration": 0,
-        "lastObservedActualHour": 9
+        "lastObservedActualHour": 10
       }
     },
     {
       "date": "2026-10-27",
       "path": "forecast_snapshots/2026-10-27/index.json",
-      "snapshotCount": 7,
+      "snapshotCount": 8,
       "latest": {
         "targetDate": "2026-10-27",
-        "generatedAt": "2026-10-26T11:01:55+09:00",
+        "generatedAt": "2026-10-26T11:57:59+09:00",
         "runType": "intraday",
-        "path": "forecast_snapshots/2026-10-27/2026-10-26T11-01-55-09-00.json",
+        "path": "forecast_snapshots/2026-10-27/2026-10-26T11-57-59-09-00.json",
         "model": {
           "name": "lgbm_quantile_q50",
           "version": "mvp-1",
@@ -373,7 +373,7 @@
           "forecastMw": 32715.9,
           "at": "2026-10-27T16:00:00+09:00",
           "interval": {
-            "p95Lower": 30565.1,
+            "p95Lower": 30507.9,
             "p95Upper": 35695.4
           }
         },
