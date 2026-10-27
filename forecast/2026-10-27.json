@@ -197,19 +197,19 @@
     },
     {
       "ts": "2026-10-27T22:00:00+09:00",
-      "forecastMw": 26641.0,
-      "p95LowerMw": 25319.1,
-      "p95UpperMw": 28274.8,
-      "p99LowerMw": 23997.2,
-      "p99UpperMw": 29908.5
+      "forecastMw": 26512.5,
+      "p95LowerMw": 25387.0,
+      "p95UpperMw": 28191.6,
+      "p99LowerMw": 24261.5,
+      "p99UpperMw": 29870.7
     },
     {
       "ts": "2026-10-27T23:00:00+09:00",
-      "forecastMw": 24961.8,
-      "p95LowerMw": 23895.8,
-      "p95UpperMw": 26611.7,
-      "p99LowerMw": 22829.8,
-      "p99UpperMw": 28261.6
+      "forecastMw": 24909.5,
+      "p95LowerMw": 23769.2,
+      "p95UpperMw": 26132.8,
+      "p99LowerMw": 22629.0,
+      "p99UpperMw": 27356.0
     }
   ],
   "intervalCalibration": {
@@ -217,7 +217,7 @@
     "availability": "insufficient_history",
     "method": "lead_aware_conformal_target_width",
     "source": "finalized_actual_vs_issued_forecast",
-    "issuedAt": "2026-10-27T19:59:27+09:00",
+    "issuedAt": "2026-10-27T22:12:16+09:00",
     "artifactSha256": "c2914b699dc306c61c6eb8f777d99fdebf1f7336dbf83bd01d851156e8b0cdd3",
     "servingPolicyFingerprint": "ba4d14312e56659c46a87b8e9c13750b51e93334dcb59661b8d37e6f2d0647bc",
     "floorsMwByTimeBand": {},
@@ -567,23 +567,57 @@
           "application": "native_fallback"
         },
         "20": {
-          "leadBand": "0_2h",
+          "leadBand": null,
           "timeBand": "evening",
           "groups": {
             "same_regime": {
-              "samples": 10,
-              "days": 2,
-              "quantileMw": 904.6
+              "samples": 0,
+              "days": 0,
+              "quantileMw": null
             },
             "all_regime": {
-              "samples": 10,
-              "days": 2,
-              "quantileMw": 904.6
+              "samples": 0,
+              "days": 0,
+              "quantileMw": null
             }
           },
           "application": "native_fallback"
         },
         "21": {
+          "leadBand": null,
+          "timeBand": "evening",
+          "groups": {
+            "same_regime": {
+              "samples": 0,
+              "days": 0,
+              "quantileMw": null
+            },
+            "all_regime": {
+              "samples": 0,
+              "days": 0,
+              "quantileMw": null
+            }
+          },
+          "application": "native_fallback"
+        },
+        "22": {
+          "leadBand": null,
+          "timeBand": "evening",
+          "groups": {
+            "same_regime": {
+              "samples": 0,
+              "days": 0,
+              "quantileMw": null
+            },
+            "all_regime": {
+              "samples": 0,
+              "days": 0,
+              "quantileMw": null
+            }
+          },
+          "application": "native_fallback"
+        },
+        "23": {
           "leadBand": "0_2h",
           "timeBand": "evening",
           "groups": {
@@ -596,40 +630,6 @@
               "samples": 10,
               "days": 2,
               "quantileMw": 904.6
-            }
-          },
-          "application": "native_fallback"
-        },
-        "22": {
-          "leadBand": "2_4h",
-          "timeBand": "evening",
-          "groups": {
-            "same_regime": {
-              "samples": 10,
-              "days": 2,
-              "quantileMw": 601.0
-            },
-            "all_regime": {
-              "samples": 10,
-              "days": 2,
-              "quantileMw": 601.0
-            }
-          },
-          "application": "native_fallback"
-        },
-        "23": {
-          "leadBand": "2_4h",
-          "timeBand": "evening",
-          "groups": {
-            "same_regime": {
-              "samples": 10,
-              "days": 2,
-              "quantileMw": 601.0
-            },
-            "all_regime": {
-              "samples": 10,
-              "days": 2,
-              "quantileMw": 601.0
             }
           },
           "application": "native_fallback"
@@ -666,7 +666,10 @@
       15,
       16,
       17,
-      18
+      18,
+      19,
+      20,
+      21
     ]
   }
 }
