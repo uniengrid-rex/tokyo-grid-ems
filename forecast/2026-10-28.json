@@ -29,43 +29,43 @@
     },
     {
       "ts": "2026-10-28T01:00:00+09:00",
-      "forecastMw": 22379.0,
-      "p95LowerMw": 21474.5,
-      "p95UpperMw": 23826.2,
-      "p99LowerMw": 20570.0,
-      "p99UpperMw": 25273.4
+      "forecastMw": 22335.8,
+      "p95LowerMw": 21394.3,
+      "p95UpperMw": 23842.2,
+      "p99LowerMw": 20452.8,
+      "p99UpperMw": 25348.6
     },
     {
       "ts": "2026-10-28T02:00:00+09:00",
-      "forecastMw": 21991.9,
-      "p95LowerMw": 21022.9,
-      "p95UpperMw": 23542.3,
-      "p99LowerMw": 20053.9,
-      "p99UpperMw": 25092.7
+      "forecastMw": 21899.7,
+      "p95LowerMw": 20859.2,
+      "p95UpperMw": 23564.5,
+      "p99LowerMw": 19818.7,
+      "p99UpperMw": 25229.2
     },
     {
       "ts": "2026-10-28T03:00:00+09:00",
-      "forecastMw": 22311.6,
-      "p95LowerMw": 21388.6,
-      "p95UpperMw": 23788.3,
-      "p99LowerMw": 20465.6,
-      "p99UpperMw": 25265.1
+      "forecastMw": 22313.6,
+      "p95LowerMw": 21404.5,
+      "p95UpperMw": 23768.2,
+      "p99LowerMw": 20495.4,
+      "p99UpperMw": 25222.8
     },
     {
       "ts": "2026-10-28T04:00:00+09:00",
       "forecastMw": 22586.5,
-      "p95LowerMw": 21712.0,
-      "p95UpperMw": 23985.6,
-      "p99LowerMw": 20837.5,
-      "p99UpperMw": 25384.7
+      "p95LowerMw": 21705.8,
+      "p95UpperMw": 23995.6,
+      "p99LowerMw": 20825.1,
+      "p99UpperMw": 25404.7
     },
     {
       "ts": "2026-10-28T05:00:00+09:00",
-      "forecastMw": 23001.6,
-      "p95LowerMw": 21839.6,
-      "p95UpperMw": 24860.7,
-      "p99LowerMw": 20677.6,
-      "p99UpperMw": 26719.8
+      "forecastMw": 22998.6,
+      "p95LowerMw": 21836.6,
+      "p95UpperMw": 24857.7,
+      "p99LowerMw": 20674.6,
+      "p99UpperMw": 26716.8
     },
     {
       "ts": "2026-10-28T06:00:00+09:00",
@@ -198,10 +198,10 @@
     {
       "ts": "2026-10-28T22:00:00+09:00",
       "forecastMw": 25759.7,
-      "p95LowerMw": 24477.2,
-      "p95UpperMw": 27811.7,
-      "p99LowerMw": 23194.7,
-      "p99UpperMw": 29863.7
+      "p95LowerMw": 24479.2,
+      "p95UpperMw": 27808.5,
+      "p99LowerMw": 23198.7,
+      "p99UpperMw": 29857.3
     },
     {
       "ts": "2026-10-28T23:00:00+09:00",
@@ -217,7 +217,7 @@
     "availability": "insufficient_history",
     "method": "lead_aware_conformal_target_width",
     "source": "finalized_actual_vs_issued_forecast",
-    "issuedAt": "2026-10-28T00:52:17+09:00",
+    "issuedAt": "2026-10-28T02:01:16+09:00",
     "artifactSha256": "c2914b699dc306c61c6eb8f777d99fdebf1f7336dbf83bd01d851156e8b0cdd3",
     "servingPolicyFingerprint": "ba4d14312e56659c46a87b8e9c13750b51e93334dcb59661b8d37e6f2d0647bc",
     "floorsMwByTimeBand": {},
@@ -244,23 +244,40 @@
           "application": "native_fallback"
         },
         "1": {
-          "leadBand": "0_2h",
+          "leadBand": null,
           "timeBand": "overnight",
           "groups": {
             "same_regime": {
-              "samples": 2,
-              "days": 1,
-              "quantileMw": 489.8
+              "samples": 0,
+              "days": 0,
+              "quantileMw": null
             },
             "all_regime": {
-              "samples": 2,
-              "days": 1,
-              "quantileMw": 489.8
+              "samples": 0,
+              "days": 0,
+              "quantileMw": null
             }
           },
           "application": "native_fallback"
         },
         "2": {
+          "leadBand": null,
+          "timeBand": "overnight",
+          "groups": {
+            "same_regime": {
+              "samples": 0,
+              "days": 0,
+              "quantileMw": null
+            },
+            "all_regime": {
+              "samples": 0,
+              "days": 0,
+              "quantileMw": null
+            }
+          },
+          "application": "native_fallback"
+        },
+        "3": {
           "leadBand": "0_2h",
           "timeBand": "overnight",
           "groups": {
@@ -277,42 +294,25 @@
           },
           "application": "native_fallback"
         },
-        "3": {
-          "leadBand": "2_4h",
-          "timeBand": "overnight",
-          "groups": {
-            "same_regime": {
-              "samples": 0,
-              "days": 0,
-              "quantileMw": null
-            },
-            "all_regime": {
-              "samples": 0,
-              "days": 0,
-              "quantileMw": null
-            }
-          },
-          "application": "native_fallback"
-        },
         "4": {
-          "leadBand": "2_4h",
+          "leadBand": "0_2h",
           "timeBand": "overnight",
           "groups": {
             "same_regime": {
-              "samples": 0,
-              "days": 0,
-              "quantileMw": null
+              "samples": 2,
+              "days": 1,
+              "quantileMw": 489.8
             },
             "all_regime": {
-              "samples": 0,
-              "days": 0,
-              "quantileMw": null
+              "samples": 2,
+              "days": 1,
+              "quantileMw": 489.8
             }
           },
           "application": "native_fallback"
         },
         "5": {
-          "leadBand": "4_8h",
+          "leadBand": "2_4h",
           "timeBand": "overnight",
           "groups": {
             "same_regime": {
@@ -329,18 +329,18 @@
           "application": "native_fallback"
         },
         "6": {
-          "leadBand": "4_8h",
+          "leadBand": "2_4h",
           "timeBand": "morning",
           "groups": {
             "same_regime": {
-              "samples": 3,
+              "samples": 5,
               "days": 1,
-              "quantileMw": 545.5
+              "quantileMw": 244.4
             },
             "all_regime": {
-              "samples": 3,
+              "samples": 5,
               "days": 1,
-              "quantileMw": 545.5
+              "quantileMw": 244.4
             }
           },
           "application": "native_fallback"
@@ -380,35 +380,35 @@
           "application": "native_fallback"
         },
         "9": {
-          "leadBand": "8_24h",
+          "leadBand": "4_8h",
           "timeBand": "morning",
           "groups": {
             "same_regime": {
-              "samples": 0,
-              "days": 0,
-              "quantileMw": null
+              "samples": 3,
+              "days": 1,
+              "quantileMw": 545.5
             },
             "all_regime": {
-              "samples": 0,
-              "days": 0,
-              "quantileMw": null
+              "samples": 3,
+              "days": 1,
+              "quantileMw": 545.5
             }
           },
           "application": "native_fallback"
         },
         "10": {
-          "leadBand": "8_24h",
+          "leadBand": "4_8h",
           "timeBand": "morning",
           "groups": {
             "same_regime": {
-              "samples": 0,
-              "days": 0,
-              "quantileMw": null
+              "samples": 3,
+              "days": 1,
+              "quantileMw": 545.5
             },
             "all_regime": {
-              "samples": 0,
-              "days": 0,
-              "quantileMw": null
+              "samples": 3,
+              "days": 1,
+              "quantileMw": 545.5
             }
           },
           "application": "native_fallback"
@@ -647,6 +647,8 @@
       "incomplete_actual": 0
     },
     "selectedSamples": 282,
-    "preservedObservedHours": []
+    "preservedObservedHours": [
+      0
+    ]
   }
 }
