@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1.0.0",
   "timezone": "Asia/Tokyo",
-  "generatedAt": "2026-10-29T14:06:24+09:00",
+  "generatedAt": "2026-10-29T16:25:22+09:00",
   "retentionDays": 14,
   "maxPerDay": 24,
   "dates": [
@@ -435,17 +435,17 @@
     {
       "date": "2026-10-29",
       "path": "reports/internal/operational-calibration/snapshots/2026-10-29/index.json",
-      "snapshotCount": 10,
+      "snapshotCount": 11,
       "latest": {
         "date": "2026-10-29",
-        "generatedAt": "2026-10-29T14:06:24+09:00",
-        "path": "reports/internal/operational-calibration/snapshots/2026-10-29/2026-10-29T14-06-24-09-00.json",
+        "generatedAt": "2026-10-29T16:25:22+09:00",
+        "path": "reports/internal/operational-calibration/snapshots/2026-10-29/2026-10-29T16-25-22-09-00.json",
         "model": "lgbm_quantile_q50",
         "applied": true,
-        "observedHours": 13,
+        "observedHours": 16,
         "fallbackActualHours": 0,
-        "lastObservedHour": 12,
-        "baseAdjustmentMw": 361.8,
+        "lastObservedHour": 15,
+        "baseAdjustmentMw": 415.9,
         "appliedDayBiasMw": 0.0,
         "appliedRegimeReason": [
           "intraday_observed_residual",
@@ -453,10 +453,10 @@
         ],
         "sourceConfidence": {
           "level": "observed",
-          "actualHours": 13,
-          "usableObservedHours": 13,
+          "actualHours": 16,
+          "usableObservedHours": 16,
           "fallbackIgnoredHours": 0,
-          "missingHours": 11
+          "missingHours": 8
         },
         "businessTypeTransitionPriorApplied": false,
         "businessTypeTransitionApplied": false,
@@ -475,9 +475,9 @@
         "eveningDeclineContinuityGuardApplied": false,
         "eveningDeclineContinuityMaxReductionMw": 0.0,
         "negResidualRecoveryDampingApplied": false,
-        "residualCarryoverHours": 11,
+        "residualCarryoverHours": 8,
         "changedForecastHours": 24,
-        "maxAbsCalibrationDeltaMw": 219.4
+        "maxAbsCalibrationDeltaMw": 252.2
       }
     }
   ]
