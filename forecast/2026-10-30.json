@@ -197,19 +197,19 @@
     },
     {
       "ts": "2026-10-30T22:00:00+09:00",
-      "forecastMw": 26290.0,
-      "p95LowerMw": 25197.9,
-      "p95UpperMw": 28037.4,
-      "p99LowerMw": 24105.8,
-      "p99UpperMw": 29784.8
+      "forecastMw": 26273.0,
+      "p95LowerMw": 25100.8,
+      "p95UpperMw": 28148.5,
+      "p99LowerMw": 23928.6,
+      "p99UpperMw": 30024.0
     },
     {
       "ts": "2026-10-30T23:00:00+09:00",
-      "forecastMw": 24952.2,
-      "p95LowerMw": 23744.3,
-      "p95UpperMw": 26296.6,
-      "p99LowerMw": 22536.4,
-      "p99UpperMw": 27641.0
+      "forecastMw": 24959.4,
+      "p95LowerMw": 23892.3,
+      "p95UpperMw": 26305.4,
+      "p99LowerMw": 22825.2,
+      "p99UpperMw": 27651.4
     }
   ],
   "intervalCalibration": {
@@ -217,7 +217,7 @@
     "availability": "insufficient_history",
     "method": "lead_aware_conformal_target_width",
     "source": "finalized_actual_vs_issued_forecast",
-    "issuedAt": "2026-10-30T20:03:02+09:00",
+    "issuedAt": "2026-10-30T22:21:19+09:00",
     "artifactSha256": "c2914b699dc306c61c6eb8f777d99fdebf1f7336dbf83bd01d851156e8b0cdd3",
     "servingPolicyFingerprint": "ba4d14312e56659c46a87b8e9c13750b51e93334dcb59661b8d37e6f2d0647bc",
     "floorsMwByTimeBand": {},
@@ -584,7 +584,7 @@
           "application": "native_fallback"
         },
         "21": {
-          "leadBand": "0_2h",
+          "leadBand": null,
           "timeBand": "evening",
           "groups": {
             "same_regime": {
@@ -601,7 +601,7 @@
           "application": "native_fallback"
         },
         "22": {
-          "leadBand": "0_2h",
+          "leadBand": null,
           "timeBand": "evening",
           "groups": {
             "same_regime": {
@@ -618,7 +618,7 @@
           "application": "native_fallback"
         },
         "23": {
-          "leadBand": "2_4h",
+          "leadBand": "0_2h",
           "timeBand": "evening",
           "groups": {
             "same_regime": {
@@ -666,7 +666,10 @@
       15,
       16,
       17,
-      18
+      18,
+      19,
+      20,
+      21
     ]
   }
 }
