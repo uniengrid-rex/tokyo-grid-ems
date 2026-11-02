@@ -181,35 +181,35 @@
     },
     {
       "ts": "2026-11-02T20:00:00+09:00",
-      "forecastMw": 28720.0,
-      "p95LowerMw": 26060.9,
-      "p95UpperMw": 30382.0,
-      "p99LowerMw": 23401.8,
-      "p99UpperMw": 32044.0
+      "forecastMw": 28930.0,
+      "p95LowerMw": 26175.9,
+      "p95UpperMw": 30651.4,
+      "p99LowerMw": 23421.8,
+      "p99UpperMw": 32372.8
     },
     {
       "ts": "2026-11-02T21:00:00+09:00",
-      "forecastMw": 27292.1,
-      "p95LowerMw": 24583.6,
-      "p95UpperMw": 28984.9,
-      "p99LowerMw": 21875.1,
-      "p99UpperMw": 30677.7
+      "forecastMw": 27276.6,
+      "p95LowerMw": 24561.1,
+      "p95UpperMw": 28973.8,
+      "p99LowerMw": 21845.6,
+      "p99UpperMw": 30671.0
     },
     {
       "ts": "2026-11-02T22:00:00+09:00",
-      "forecastMw": 25917.9,
-      "p95LowerMw": 24084.3,
-      "p95UpperMw": 27232.9,
-      "p99LowerMw": 22250.7,
-      "p99UpperMw": 28547.9
+      "forecastMw": 25912.6,
+      "p95LowerMw": 24008.1,
+      "p95UpperMw": 27186.8,
+      "p99LowerMw": 22103.6,
+      "p99UpperMw": 28461.1
     },
     {
       "ts": "2026-11-02T23:00:00+09:00",
-      "forecastMw": 24466.4,
-      "p95LowerMw": 23206.8,
-      "p95UpperMw": 25745.2,
-      "p99LowerMw": 21947.2,
-      "p99UpperMw": 27024.0
+      "forecastMw": 24421.1,
+      "p95LowerMw": 23206.6,
+      "p95UpperMw": 25796.9,
+      "p99LowerMw": 21992.1,
+      "p99UpperMw": 27172.7
     }
   ],
   "intervalCalibration": {
@@ -217,7 +217,7 @@
     "availability": "insufficient_history",
     "method": "lead_aware_conformal_target_width",
     "source": "finalized_actual_vs_issued_forecast",
-    "issuedAt": "2026-11-02T18:28:04+09:00",
+    "issuedAt": "2026-11-02T20:18:09+09:00",
     "artifactSha256": "c2914b699dc306c61c6eb8f777d99fdebf1f7336dbf83bd01d851156e8b0cdd3",
     "servingPolicyFingerprint": "ba4d14312e56659c46a87b8e9c13750b51e93334dcb59661b8d37e6f2d0647bc",
     "floorsMwByTimeBand": {},
@@ -550,7 +550,7 @@
           "application": "native_fallback"
         },
         "19": {
-          "leadBand": "0_2h",
+          "leadBand": null,
           "timeBand": "evening",
           "groups": {
             "same_regime": {
@@ -567,7 +567,7 @@
           "application": "native_fallback"
         },
         "20": {
-          "leadBand": "0_2h",
+          "leadBand": null,
           "timeBand": "evening",
           "groups": {
             "same_regime": {
@@ -584,7 +584,7 @@
           "application": "native_fallback"
         },
         "21": {
-          "leadBand": "2_4h",
+          "leadBand": "0_2h",
           "timeBand": "evening",
           "groups": {
             "same_regime": {
@@ -601,7 +601,7 @@
           "application": "native_fallback"
         },
         "22": {
-          "leadBand": "2_4h",
+          "leadBand": "0_2h",
           "timeBand": "evening",
           "groups": {
             "same_regime": {
@@ -618,7 +618,7 @@
           "application": "native_fallback"
         },
         "23": {
-          "leadBand": "4_8h",
+          "leadBand": "2_4h",
           "timeBand": "evening",
           "groups": {
             "same_regime": {
@@ -665,7 +665,9 @@
       14,
       15,
       16,
-      17
+      17,
+      18,
+      19
     ]
   }
 }
