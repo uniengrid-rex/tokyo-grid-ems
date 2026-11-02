@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1.0.0",
   "timezone": "Asia/Tokyo",
-  "generatedAt": "2026-11-02T12:12:03+09:00",
+  "generatedAt": "2026-11-02T12:54:24+09:00",
   "retentionDays": 21,
   "maxPerDay": 16,
   "dates": [
@@ -388,9 +388,9 @@
       "snapshotCount": 16,
       "latest": {
         "targetDate": "2026-11-02",
-        "generatedAt": "2026-11-02T12:12:03+09:00",
+        "generatedAt": "2026-11-02T12:54:24+09:00",
         "runType": "intraday",
-        "path": "forecast_snapshots/2026-11-02/2026-11-02T12-12-03-09-00.json",
+        "path": "forecast_snapshots/2026-11-02/2026-11-02T12-54-24-09-00.json",
         "model": {
           "name": "lgbm_quantile_q50_intraday_residual",
           "version": "mvp-1",
@@ -414,12 +414,12 @@
     {
       "date": "2026-11-03",
       "path": "forecast_snapshots/2026-11-03/index.json",
-      "snapshotCount": 8,
+      "snapshotCount": 9,
       "latest": {
         "targetDate": "2026-11-03",
-        "generatedAt": "2026-11-02T12:12:03+09:00",
+        "generatedAt": "2026-11-02T12:54:24+09:00",
         "runType": "intraday",
-        "path": "forecast_snapshots/2026-11-03/2026-11-02T12-12-03-09-00.json",
+        "path": "forecast_snapshots/2026-11-03/2026-11-02T12-54-24-09-00.json",
         "model": {
           "name": "lgbm_quantile_q50",
           "version": "mvp-1",
@@ -428,11 +428,11 @@
           "artifactSha256": "c2914b699dc306c61c6eb8f777d99fdebf1f7336dbf83bd01d851156e8b0cdd3"
         },
         "peak": {
-          "forecastMw": 29351.6,
+          "forecastMw": 29508.0,
           "at": "2026-11-03T19:00:00+09:00",
           "interval": {
-            "p95Lower": 27283.2,
-            "p95Upper": 30644.3
+            "p95Lower": 27266.6,
+            "p95Upper": 30908.9
           }
         },
         "observedActualHoursAtGeneration": 0,
