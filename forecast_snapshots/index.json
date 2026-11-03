@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1.0.0",
   "timezone": "Asia/Tokyo",
-  "generatedAt": "2026-11-03T12:50:48+09:00",
+  "generatedAt": "2026-11-03T14:16:12+09:00",
   "retentionDays": 21,
   "maxPerDay": 16,
   "dates": [
@@ -417,9 +417,9 @@
       "snapshotCount": 16,
       "latest": {
         "targetDate": "2026-11-03",
-        "generatedAt": "2026-11-03T12:50:48+09:00",
+        "generatedAt": "2026-11-03T14:16:12+09:00",
         "runType": "intraday",
-        "path": "forecast_snapshots/2026-11-03/2026-11-03T12-50-48-09-00.json",
+        "path": "forecast_snapshots/2026-11-03/2026-11-03T14-16-12-09-00.json",
         "model": {
           "name": "lgbm_quantile_q50_intraday_residual",
           "version": "mvp-1",
@@ -428,27 +428,27 @@
           "artifactSha256": "c2914b699dc306c61c6eb8f777d99fdebf1f7336dbf83bd01d851156e8b0cdd3"
         },
         "peak": {
-          "forecastMw": 29598.0,
+          "forecastMw": 29562.7,
           "at": "2026-11-03T19:00:00+09:00",
           "interval": {
-            "p95Lower": 27223.6,
-            "p95Upper": 31082.0
+            "p95Lower": 27197.5,
+            "p95Upper": 31041.0
           }
         },
-        "observedActualHoursAtGeneration": 12,
+        "observedActualHoursAtGeneration": 14,
         "fallbackActualHoursAtGeneration": 0,
-        "lastObservedActualHour": 11
+        "lastObservedActualHour": 13
       }
     },
     {
       "date": "2026-11-04",
       "path": "forecast_snapshots/2026-11-04/index.json",
-      "snapshotCount": 9,
+      "snapshotCount": 10,
       "latest": {
         "targetDate": "2026-11-04",
-        "generatedAt": "2026-11-03T12:50:48+09:00",
+        "generatedAt": "2026-11-03T14:16:12+09:00",
         "runType": "intraday",
-        "path": "forecast_snapshots/2026-11-04/2026-11-03T12-50-48-09-00.json",
+        "path": "forecast_snapshots/2026-11-04/2026-11-03T14-16-12-09-00.json",
         "model": {
           "name": "lgbm_quantile_q50",
           "version": "mvp-1",
@@ -457,11 +457,11 @@
           "artifactSha256": "c2914b699dc306c61c6eb8f777d99fdebf1f7336dbf83bd01d851156e8b0cdd3"
         },
         "peak": {
-          "forecastMw": 32078.3,
+          "forecastMw": 32084.9,
           "at": "2026-11-04T17:00:00+09:00",
           "interval": {
-            "p95Lower": 29838.5,
-            "p95Upper": 33478.2
+            "p95Lower": 29824.1,
+            "p95Upper": 33497.9
           }
         },
         "observedActualHoursAtGeneration": 0,
