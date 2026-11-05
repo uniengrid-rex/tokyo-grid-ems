@@ -1,0 +1,652 @@
+{
+  "date": "2026-11-07",
+  "timezone": "Asia/Tokyo",
+  "availability": "ok",
+  "model": {
+    "name": "lgbm_quantile_q50",
+    "version": "mvp-1",
+    "nWeeks": 12,
+    "contract": "v14-r2-source-robust-day-ahead",
+    "artifactSha256": "c2914b699dc306c61c6eb8f777d99fdebf1f7336dbf83bd01d851156e8b0cdd3"
+  },
+  "servingPolicyFingerprint": "ba4d14312e56659c46a87b8e9c13750b51e93334dcb59661b8d37e6f2d0647bc",
+  "peak": {
+    "forecastMw": 30142.3,
+    "at": "2026-11-07T17:00:00+09:00",
+    "interval": {
+      "p95Lower": 27498.1,
+      "p95Upper": 31794.9
+    }
+  },
+  "series": [
+    {
+      "ts": "2026-11-07T00:00:00+09:00",
+      "forecastMw": 23503.9,
+      "p95LowerMw": 21833.8,
+      "p95UpperMw": 24547.7,
+      "p99LowerMw": 20163.7,
+      "p99UpperMw": 25591.5
+    },
+    {
+      "ts": "2026-11-07T01:00:00+09:00",
+      "forecastMw": 23119.7,
+      "p95LowerMw": 21772.9,
+      "p95UpperMw": 23961.5,
+      "p99LowerMw": 20426.1,
+      "p99UpperMw": 24803.3
+    },
+    {
+      "ts": "2026-11-07T02:00:00+09:00",
+      "forecastMw": 22825.5,
+      "p95LowerMw": 21919.9,
+      "p95UpperMw": 23789.8,
+      "p99LowerMw": 21014.3,
+      "p99UpperMw": 24754.1
+    },
+    {
+      "ts": "2026-11-07T03:00:00+09:00",
+      "forecastMw": 23065.3,
+      "p95LowerMw": 22076.4,
+      "p95UpperMw": 23846.5,
+      "p99LowerMw": 21087.5,
+      "p99UpperMw": 24627.8
+    },
+    {
+      "ts": "2026-11-07T04:00:00+09:00",
+      "forecastMw": 23237.7,
+      "p95LowerMw": 22184.1,
+      "p95UpperMw": 24019.0,
+      "p99LowerMw": 21130.5,
+      "p99UpperMw": 24800.2
+    },
+    {
+      "ts": "2026-11-07T05:00:00+09:00",
+      "forecastMw": 23412.9,
+      "p95LowerMw": 22187.7,
+      "p95UpperMw": 24194.2,
+      "p99LowerMw": 20962.5,
+      "p99UpperMw": 24975.5
+    },
+    {
+      "ts": "2026-11-07T06:00:00+09:00",
+      "forecastMw": 24491.0,
+      "p95LowerMw": 22468.0,
+      "p95UpperMw": 25755.4,
+      "p99LowerMw": 20445.0,
+      "p99UpperMw": 27019.8
+    },
+    {
+      "ts": "2026-11-07T07:00:00+09:00",
+      "forecastMw": 25255.4,
+      "p95LowerMw": 23620.3,
+      "p95UpperMw": 26277.3,
+      "p99LowerMw": 21985.2,
+      "p99UpperMw": 27299.2
+    },
+    {
+      "ts": "2026-11-07T08:00:00+09:00",
+      "forecastMw": 26940.3,
+      "p95LowerMw": 24976.1,
+      "p95UpperMw": 28167.9,
+      "p99LowerMw": 23011.9,
+      "p99UpperMw": 29395.5
+    },
+    {
+      "ts": "2026-11-07T09:00:00+09:00",
+      "forecastMw": 28942.2,
+      "p95LowerMw": 26298.0,
+      "p95UpperMw": 30594.8,
+      "p99LowerMw": 23653.8,
+      "p99UpperMw": 32247.4
+    },
+    {
+      "ts": "2026-11-07T10:00:00+09:00",
+      "forecastMw": 29559.3,
+      "p95LowerMw": 26915.1,
+      "p95UpperMw": 31211.9,
+      "p99LowerMw": 24270.9,
+      "p99UpperMw": 32864.5
+    },
+    {
+      "ts": "2026-11-07T11:00:00+09:00",
+      "forecastMw": 29639.0,
+      "p95LowerMw": 27059.5,
+      "p95UpperMw": 31251.2,
+      "p99LowerMw": 24480.0,
+      "p99UpperMw": 32863.4
+    },
+    {
+      "ts": "2026-11-07T12:00:00+09:00",
+      "forecastMw": 29413.0,
+      "p95LowerMw": 26768.8,
+      "p95UpperMw": 31065.6,
+      "p99LowerMw": 24124.6,
+      "p99UpperMw": 32718.2
+    },
+    {
+      "ts": "2026-11-07T13:00:00+09:00",
+      "forecastMw": 29640.2,
+      "p95LowerMw": 27001.6,
+      "p95UpperMw": 31289.3,
+      "p99LowerMw": 24363.0,
+      "p99UpperMw": 32938.4
+    },
+    {
+      "ts": "2026-11-07T14:00:00+09:00",
+      "forecastMw": 29702.4,
+      "p95LowerMw": 27058.2,
+      "p95UpperMw": 31355.0,
+      "p99LowerMw": 24414.0,
+      "p99UpperMw": 33007.6
+    },
+    {
+      "ts": "2026-11-07T15:00:00+09:00",
+      "forecastMw": 29606.3,
+      "p95LowerMw": 26962.1,
+      "p95UpperMw": 31258.9,
+      "p99LowerMw": 24317.9,
+      "p99UpperMw": 32911.5
+    },
+    {
+      "ts": "2026-11-07T16:00:00+09:00",
+      "forecastMw": 29673.4,
+      "p95LowerMw": 27029.2,
+      "p95UpperMw": 31326.0,
+      "p99LowerMw": 24385.0,
+      "p99UpperMw": 32978.6
+    },
+    {
+      "ts": "2026-11-07T17:00:00+09:00",
+      "forecastMw": 30142.3,
+      "p95LowerMw": 27498.1,
+      "p95UpperMw": 31794.9,
+      "p99LowerMw": 24853.9,
+      "p99UpperMw": 33447.5
+    },
+    {
+      "ts": "2026-11-07T18:00:00+09:00",
+      "forecastMw": 29690.3,
+      "p95LowerMw": 27046.1,
+      "p95UpperMw": 31342.9,
+      "p99LowerMw": 24401.9,
+      "p99UpperMw": 32995.5
+    },
+    {
+      "ts": "2026-11-07T19:00:00+09:00",
+      "forecastMw": 29015.0,
+      "p95LowerMw": 26986.2,
+      "p95UpperMw": 30283.0,
+      "p99LowerMw": 24957.4,
+      "p99UpperMw": 31551.0
+    },
+    {
+      "ts": "2026-11-07T20:00:00+09:00",
+      "forecastMw": 28017.6,
+      "p95LowerMw": 26209.6,
+      "p95UpperMw": 29147.6,
+      "p99LowerMw": 24401.6,
+      "p99UpperMw": 30277.6
+    },
+    {
+      "ts": "2026-11-07T21:00:00+09:00",
+      "forecastMw": 26828.3,
+      "p95LowerMw": 24858.8,
+      "p95UpperMw": 28059.3,
+      "p99LowerMw": 22889.3,
+      "p99UpperMw": 29290.3
+    },
+    {
+      "ts": "2026-11-07T22:00:00+09:00",
+      "forecastMw": 25933.4,
+      "p95LowerMw": 24418.6,
+      "p95UpperMw": 26880.1,
+      "p99LowerMw": 22903.8,
+      "p99UpperMw": 27826.8
+    },
+    {
+      "ts": "2026-11-07T23:00:00+09:00",
+      "forecastMw": 24699.3,
+      "p95LowerMw": 23437.1,
+      "p95UpperMw": 25488.2,
+      "p99LowerMw": 22174.9,
+      "p99UpperMw": 26277.1
+    }
+  ],
+  "intervalCalibration": {
+    "schemaVersion": "2.0.0",
+    "availability": "insufficient_history",
+    "method": "lead_aware_conformal_target_width",
+    "source": "finalized_actual_vs_issued_forecast",
+    "issuedAt": "2026-11-06T00:41:51+09:00",
+    "artifactSha256": "c2914b699dc306c61c6eb8f777d99fdebf1f7336dbf83bd01d851156e8b0cdd3",
+    "servingPolicyFingerprint": "ba4d14312e56659c46a87b8e9c13750b51e93334dcb59661b8d37e6f2d0647bc",
+    "floorsMwByTimeBand": {},
+    "servedTarget": {
+      "availability": "insufficient_history",
+      "application": "replace_symmetric_p95_half_width",
+      "targetWidthsMwByHour": {},
+      "detailsByHour": {
+        "0": {
+          "leadBand": "8_24h",
+          "timeBand": "overnight",
+          "groups": {
+            "same_regime": {
+              "samples": 0,
+              "days": 0,
+              "quantileMw": null
+            },
+            "all_regime": {
+              "samples": 0,
+              "days": 0,
+              "quantileMw": null
+            }
+          },
+          "application": "native_fallback"
+        },
+        "1": {
+          "leadBand": "24_48h",
+          "timeBand": "overnight",
+          "groups": {
+            "same_regime": {
+              "samples": 0,
+              "days": 0,
+              "quantileMw": null
+            },
+            "all_regime": {
+              "samples": 0,
+              "days": 0,
+              "quantileMw": null
+            }
+          },
+          "application": "native_fallback"
+        },
+        "2": {
+          "leadBand": "24_48h",
+          "timeBand": "overnight",
+          "groups": {
+            "same_regime": {
+              "samples": 0,
+              "days": 0,
+              "quantileMw": null
+            },
+            "all_regime": {
+              "samples": 0,
+              "days": 0,
+              "quantileMw": null
+            }
+          },
+          "application": "native_fallback"
+        },
+        "3": {
+          "leadBand": "24_48h",
+          "timeBand": "overnight",
+          "groups": {
+            "same_regime": {
+              "samples": 0,
+              "days": 0,
+              "quantileMw": null
+            },
+            "all_regime": {
+              "samples": 0,
+              "days": 0,
+              "quantileMw": null
+            }
+          },
+          "application": "native_fallback"
+        },
+        "4": {
+          "leadBand": "24_48h",
+          "timeBand": "overnight",
+          "groups": {
+            "same_regime": {
+              "samples": 0,
+              "days": 0,
+              "quantileMw": null
+            },
+            "all_regime": {
+              "samples": 0,
+              "days": 0,
+              "quantileMw": null
+            }
+          },
+          "application": "native_fallback"
+        },
+        "5": {
+          "leadBand": "24_48h",
+          "timeBand": "overnight",
+          "groups": {
+            "same_regime": {
+              "samples": 0,
+              "days": 0,
+              "quantileMw": null
+            },
+            "all_regime": {
+              "samples": 0,
+              "days": 0,
+              "quantileMw": null
+            }
+          },
+          "application": "native_fallback"
+        },
+        "6": {
+          "leadBand": "24_48h",
+          "timeBand": "morning",
+          "groups": {
+            "same_regime": {
+              "samples": 0,
+              "days": 0,
+              "quantileMw": null
+            },
+            "all_regime": {
+              "samples": 0,
+              "days": 0,
+              "quantileMw": null
+            }
+          },
+          "application": "native_fallback"
+        },
+        "7": {
+          "leadBand": "24_48h",
+          "timeBand": "morning",
+          "groups": {
+            "same_regime": {
+              "samples": 0,
+              "days": 0,
+              "quantileMw": null
+            },
+            "all_regime": {
+              "samples": 0,
+              "days": 0,
+              "quantileMw": null
+            }
+          },
+          "application": "native_fallback"
+        },
+        "8": {
+          "leadBand": "24_48h",
+          "timeBand": "morning",
+          "groups": {
+            "same_regime": {
+              "samples": 0,
+              "days": 0,
+              "quantileMw": null
+            },
+            "all_regime": {
+              "samples": 0,
+              "days": 0,
+              "quantileMw": null
+            }
+          },
+          "application": "native_fallback"
+        },
+        "9": {
+          "leadBand": "24_48h",
+          "timeBand": "morning",
+          "groups": {
+            "same_regime": {
+              "samples": 0,
+              "days": 0,
+              "quantileMw": null
+            },
+            "all_regime": {
+              "samples": 0,
+              "days": 0,
+              "quantileMw": null
+            }
+          },
+          "application": "native_fallback"
+        },
+        "10": {
+          "leadBand": "24_48h",
+          "timeBand": "morning",
+          "groups": {
+            "same_regime": {
+              "samples": 0,
+              "days": 0,
+              "quantileMw": null
+            },
+            "all_regime": {
+              "samples": 0,
+              "days": 0,
+              "quantileMw": null
+            }
+          },
+          "application": "native_fallback"
+        },
+        "11": {
+          "leadBand": "24_48h",
+          "timeBand": "daytime",
+          "groups": {
+            "same_regime": {
+              "samples": 0,
+              "days": 0,
+              "quantileMw": null
+            },
+            "all_regime": {
+              "samples": 0,
+              "days": 0,
+              "quantileMw": null
+            }
+          },
+          "application": "native_fallback"
+        },
+        "12": {
+          "leadBand": "24_48h",
+          "timeBand": "daytime",
+          "groups": {
+            "same_regime": {
+              "samples": 0,
+              "days": 0,
+              "quantileMw": null
+            },
+            "all_regime": {
+              "samples": 0,
+              "days": 0,
+              "quantileMw": null
+            }
+          },
+          "application": "native_fallback"
+        },
+        "13": {
+          "leadBand": "24_48h",
+          "timeBand": "daytime",
+          "groups": {
+            "same_regime": {
+              "samples": 0,
+              "days": 0,
+              "quantileMw": null
+            },
+            "all_regime": {
+              "samples": 0,
+              "days": 0,
+              "quantileMw": null
+            }
+          },
+          "application": "native_fallback"
+        },
+        "14": {
+          "leadBand": "24_48h",
+          "timeBand": "daytime",
+          "groups": {
+            "same_regime": {
+              "samples": 0,
+              "days": 0,
+              "quantileMw": null
+            },
+            "all_regime": {
+              "samples": 0,
+              "days": 0,
+              "quantileMw": null
+            }
+          },
+          "application": "native_fallback"
+        },
+        "15": {
+          "leadBand": "24_48h",
+          "timeBand": "daytime",
+          "groups": {
+            "same_regime": {
+              "samples": 0,
+              "days": 0,
+              "quantileMw": null
+            },
+            "all_regime": {
+              "samples": 0,
+              "days": 0,
+              "quantileMw": null
+            }
+          },
+          "application": "native_fallback"
+        },
+        "16": {
+          "leadBand": "24_48h",
+          "timeBand": "late_afternoon",
+          "groups": {
+            "same_regime": {
+              "samples": 0,
+              "days": 0,
+              "quantileMw": null
+            },
+            "all_regime": {
+              "samples": 0,
+              "days": 0,
+              "quantileMw": null
+            }
+          },
+          "application": "native_fallback"
+        },
+        "17": {
+          "leadBand": "24_48h",
+          "timeBand": "late_afternoon",
+          "groups": {
+            "same_regime": {
+              "samples": 0,
+              "days": 0,
+              "quantileMw": null
+            },
+            "all_regime": {
+              "samples": 0,
+              "days": 0,
+              "quantileMw": null
+            }
+          },
+          "application": "native_fallback"
+        },
+        "18": {
+          "leadBand": "24_48h",
+          "timeBand": "late_afternoon",
+          "groups": {
+            "same_regime": {
+              "samples": 0,
+              "days": 0,
+              "quantileMw": null
+            },
+            "all_regime": {
+              "samples": 0,
+              "days": 0,
+              "quantileMw": null
+            }
+          },
+          "application": "native_fallback"
+        },
+        "19": {
+          "leadBand": "24_48h",
+          "timeBand": "evening",
+          "groups": {
+            "same_regime": {
+              "samples": 0,
+              "days": 0,
+              "quantileMw": null
+            },
+            "all_regime": {
+              "samples": 0,
+              "days": 0,
+              "quantileMw": null
+            }
+          },
+          "application": "native_fallback"
+        },
+        "20": {
+          "leadBand": "24_48h",
+          "timeBand": "evening",
+          "groups": {
+            "same_regime": {
+              "samples": 0,
+              "days": 0,
+              "quantileMw": null
+            },
+            "all_regime": {
+              "samples": 0,
+              "days": 0,
+              "quantileMw": null
+            }
+          },
+          "application": "native_fallback"
+        },
+        "21": {
+          "leadBand": "24_48h",
+          "timeBand": "evening",
+          "groups": {
+            "same_regime": {
+              "samples": 0,
+              "days": 0,
+              "quantileMw": null
+            },
+            "all_regime": {
+              "samples": 0,
+              "days": 0,
+              "quantileMw": null
+            }
+          },
+          "application": "native_fallback"
+        },
+        "22": {
+          "leadBand": "24_48h",
+          "timeBand": "evening",
+          "groups": {
+            "same_regime": {
+              "samples": 0,
+              "days": 0,
+              "quantileMw": null
+            },
+            "all_regime": {
+              "samples": 0,
+              "days": 0,
+              "quantileMw": null
+            }
+          },
+          "application": "native_fallback"
+        },
+        "23": {
+          "leadBand": "24_48h",
+          "timeBand": "evening",
+          "groups": {
+            "same_regime": {
+              "samples": 0,
+              "days": 0,
+              "quantileMw": null
+            },
+            "all_regime": {
+              "samples": 0,
+              "days": 0,
+              "quantileMw": null
+            }
+          },
+          "application": "native_fallback"
+        }
+      }
+    },
+    "targetCoveragePct": 95.0,
+    "minimumSamples": 24,
+    "minimumHistoryDays": 4,
+    "historyCutoffExclusive": "2026-11-05",
+    "excludedSnapshots": {
+      "artifact": 0,
+      "policy": 0,
+      "timestamp": 0,
+      "incomplete_actual": 0
+    },
+    "selectedSamples": 0,
+    "preservedObservedHours": []
+  }
+}
