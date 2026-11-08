@@ -1,12 +1,12 @@
 {
   "schemaVersion": "1.0.0",
   "timezone": "Asia/Tokyo",
-  "generatedAt": "2026-11-08T20:02:55+09:00",
+  "generatedAt": "2026-11-09T00:19:13+09:00",
   "availability": "ok",
   "latest": {
     "schemaVersion": "1.0.0",
     "timezone": "Asia/Tokyo",
-    "generatedAt": "2026-11-08T20:02:55+09:00",
+    "generatedAt": "2026-11-09T00:19:13+09:00",
     "date": "2026-11-07",
     "availability": "ok",
     "model": {
@@ -176,66 +176,6 @@
     ]
   },
   "reports": [
-    {
-      "date": "2026-10-25",
-      "availability": "ok",
-      "model": {
-        "name": "lgbm_quantile_q50_intraday_residual",
-        "family": "lgbm_quantile_q50"
-      },
-      "summary": {
-        "comparableHours": 24,
-        "modelMaeMw": 589.2,
-        "tepcoMaeMw": 306.7,
-        "modelWapePct": 2.38,
-        "tepcoWapePct": 1.24,
-        "modelRmseMw": 820.2,
-        "tepcoRmseMw": 435.6,
-        "modelMaxErrorMw": 2264.5,
-        "tepcoMaxErrorMw": 1080.0,
-        "modelMaxErrorHour": 11,
-        "tepcoMaxErrorHour": 12,
-        "maeGapMw": 282.5,
-        "wapeGapPct": 1.14,
-        "verdict": "tepco_better",
-        "modelWins": 10,
-        "tepcoWins": 14,
-        "ties": 0,
-        "modelAdvantageHours": 10,
-        "tepcoAdvantageHours": 14,
-        "equalHours": 0,
-        "modelAdvantageRate": 0.417
-      },
-      "insights": [
-        {
-          "code": "tepco_closer_overall",
-          "severity": "warning",
-          "title": "TEPCO was closer overall.",
-          "evidence": {
-            "maeGapMw": 282.5,
-            "wapeGapPct": 1.14
-          }
-        },
-        {
-          "code": "morning_ramp_underestimated",
-          "severity": "warning",
-          "title": "Morning demand rose faster than the model expected.",
-          "evidence": {
-            "band": "06-10",
-            "modelBiasMw": -812.8
-          }
-        },
-        {
-          "code": "afternoon_plateau_underestimated",
-          "severity": "warning",
-          "title": "Late afternoon demand stayed higher than the model expected.",
-          "evidence": {
-            "band": "16-18",
-            "modelBiasMw": -1125.0
-          }
-        }
-      ]
-    },
     {
       "date": "2026-10-26",
       "availability": "ok",

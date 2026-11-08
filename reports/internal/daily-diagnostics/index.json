@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1.0.0",
   "timezone": "Asia/Tokyo",
-  "generatedAt": "2026-11-08T20:02:55+09:00",
+  "generatedAt": "2026-11-09T00:19:13+09:00",
   "availability": "ok",
   "visibility": {
     "intendedUse": "internal_model_diagnostics",
@@ -67,7 +67,7 @@
     }
   },
   "morningTransition": {
-    "windowDays": 14,
+    "windowDays": 13,
     "hours": [
       6,
       7,
@@ -77,23 +77,11 @@
       11
     ],
     "causeTagCounts": {
-      "humidity-ramp": 20,
-      "freeze": 5,
-      "business-return": 19
+      "humidity-ramp": 15,
+      "business-return": 19,
+      "freeze": 3
     },
     "reports": [
-      {
-        "date": "2026-10-25",
-        "rows": 6,
-        "modelMaeMw": 1054.8,
-        "modelBiasMw": -1054.8,
-        "maxErrorHour": 11,
-        "maxAbsErrorMw": 2264.5,
-        "causeTagCounts": {
-          "humidity-ramp": 5,
-          "freeze": 2
-        }
-      },
       {
         "date": "2026-10-26",
         "rows": 6,
@@ -235,7 +223,7 @@
     ]
   },
   "nonBusinessMiddayShape": {
-    "windowDays": 14,
+    "windowDays": 13,
     "hours": [
       11,
       12,
@@ -244,29 +232,13 @@
       15
     ],
     "causeTagCounts": {
-      "weekend-cooling-ramp-underpredicted": 3,
-      "rebound-shape-underfit": 4,
-      "freeze": 3,
+      "weekend-cooling-ramp-underpredicted": 2,
       "lag-shape-conflict": 1,
+      "rebound-shape-underfit": 2,
+      "freeze": 1,
       "model-dropped-against-actual-rise": 1
     },
     "reports": [
-      {
-        "date": "2026-10-25",
-        "rows": 5,
-        "modelMaeMw": 791.6,
-        "modelBiasMw": -390.5,
-        "maxErrorHour": 11,
-        "maxAbsErrorMw": 2264.5,
-        "maxShapeDeltaErrorHour": 12,
-        "maxAbsShapeDeltaErrorMw": 1863.4,
-        "actualRiseModelDropHours": [],
-        "causeTagCounts": {
-          "weekend-cooling-ramp-underpredicted": 1,
-          "rebound-shape-underfit": 2,
-          "freeze": 2
-        }
-      },
       {
         "date": "2026-10-26",
         "rows": 0,
@@ -438,70 +410,6 @@
     ]
   },
   "reports": [
-    {
-      "date": "2026-10-25",
-      "model": {
-        "name": "lgbm_quantile_q50_intraday_residual",
-        "family": "lgbm_quantile_q50"
-      },
-      "availability": "ok",
-      "operationSummary": {
-        "comparableHours": 24,
-        "modelMaeMw": 589.2,
-        "tepcoMaeMw": 306.7,
-        "modelWapePct": 2.38,
-        "tepcoWapePct": 1.24,
-        "modelRmseMw": 820.2,
-        "tepcoRmseMw": 435.6,
-        "modelMaxErrorMw": 2264.5,
-        "tepcoMaxErrorMw": 1080.0,
-        "modelMaxErrorHour": 11,
-        "tepcoMaxErrorHour": 12,
-        "maeGapMw": 282.5,
-        "wapeGapPct": 1.14,
-        "verdict": "tepco_better",
-        "modelWins": 10,
-        "tepcoWins": 14,
-        "ties": 0,
-        "modelAdvantageHours": 10,
-        "tepcoAdvantageHours": 14,
-        "equalHours": 0,
-        "modelAdvantageRate": 0.417
-      },
-      "morningTransition": {
-        "rows": 6,
-        "modelMaeMw": 1054.8,
-        "modelBiasMw": -1054.8,
-        "maxErrorHour": 11,
-        "maxAbsErrorMw": 2264.5,
-        "morningLagDeltaExcessMeanMw": -264.6,
-        "coolingDelta24hMeanC": 0.6,
-        "publishedVsRecalculatedGapMaxAbsMw": 777.4,
-        "causeTagCounts": {
-          "humidity-ramp": 5,
-          "freeze": 2
-        }
-      },
-      "nonBusinessMiddayShape": {
-        "rows": 5,
-        "modelMaeMw": 791.6,
-        "modelBiasMw": -390.5,
-        "maxErrorHour": 11,
-        "maxAbsErrorMw": 2264.5,
-        "maxShapeDeltaErrorHour": 12,
-        "maxAbsShapeDeltaErrorMw": 1863.4,
-        "shapeDeltaBiasMw": 139.3,
-        "coolingDelta24hMeanC": 3.1,
-        "actualRiseModelDropHours": [],
-        "publishedVsRecalculatedGapMaxAbsMw": 2205.0,
-        "causeTagCounts": {
-          "weekend-cooling-ramp-underpredicted": 1,
-          "rebound-shape-underfit": 2,
-          "freeze": 2
-        }
-      },
-      "featureBuildError": null
-    },
     {
       "date": "2026-10-26",
       "model": {
