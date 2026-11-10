@@ -1,12 +1,12 @@
 {
   "schemaVersion": "1.0.0",
   "timezone": "Asia/Tokyo",
-  "generatedAt": "2026-11-10T19:59:30+09:00",
+  "generatedAt": "2026-11-11T02:59:40+09:00",
   "availability": "ok",
   "latest": {
     "schemaVersion": "1.0.0",
     "timezone": "Asia/Tokyo",
-    "generatedAt": "2026-11-10T19:59:30+09:00",
+    "generatedAt": "2026-11-11T02:59:40+09:00",
     "date": "2026-11-07",
     "availability": "ok",
     "model": {
@@ -176,66 +176,6 @@
     ]
   },
   "reports": [
-    {
-      "date": "2026-10-27",
-      "availability": "ok",
-      "model": {
-        "name": "lgbm_quantile_q50_intraday_residual",
-        "family": "lgbm_quantile_q50"
-      },
-      "summary": {
-        "comparableHours": 22,
-        "modelMaeMw": 430.4,
-        "tepcoMaeMw": 360.0,
-        "modelWapePct": 1.54,
-        "tepcoWapePct": 1.29,
-        "modelRmseMw": 603.2,
-        "tepcoRmseMw": 486.0,
-        "modelMaxErrorMw": 1826.4,
-        "tepcoMaxErrorMw": 1000.0,
-        "modelMaxErrorHour": 9,
-        "tepcoMaxErrorHour": 14,
-        "maeGapMw": 70.4,
-        "wapeGapPct": 0.25,
-        "verdict": "tepco_better",
-        "modelWins": 9,
-        "tepcoWins": 13,
-        "ties": 0,
-        "modelAdvantageHours": 9,
-        "tepcoAdvantageHours": 13,
-        "equalHours": 0,
-        "modelAdvantageRate": 0.409
-      },
-      "insights": [
-        {
-          "code": "tepco_closer_overall",
-          "severity": "warning",
-          "title": "TEPCO was closer overall.",
-          "evidence": {
-            "maeGapMw": 70.4,
-            "wapeGapPct": 0.25
-          }
-        },
-        {
-          "code": "morning_ramp_overestimated",
-          "severity": "info",
-          "title": "Morning demand was lower than the model expected.",
-          "evidence": {
-            "band": "06-10",
-            "modelBiasMw": 627.0
-          }
-        },
-        {
-          "code": "large_single_hour_miss",
-          "severity": "warning",
-          "title": "One or more hours had a large model error.",
-          "evidence": {
-            "hour": 9,
-            "modelAbsErrorMw": 1826.4
-          }
-        }
-      ]
-    },
     {
       "date": "2026-10-28",
       "availability": "ok",
