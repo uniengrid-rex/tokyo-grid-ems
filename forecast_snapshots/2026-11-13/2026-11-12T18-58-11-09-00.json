@@ -1,0 +1,1070 @@
+{
+  "schemaVersion": "1.0.0",
+  "timezone": "Asia/Tokyo",
+  "targetDate": "2026-11-13",
+  "generatedAt": "2026-11-12T18:58:11+09:00",
+  "runType": "intraday",
+  "preserveObservedForecastHours": true,
+  "model": {
+    "name": "lgbm_quantile_q50",
+    "version": "mvp-1",
+    "nWeeks": 12,
+    "contract": "v14-r2-source-robust-day-ahead",
+    "artifactSha256": "c2914b699dc306c61c6eb8f777d99fdebf1f7336dbf83bd01d851156e8b0cdd3"
+  },
+  "servingPolicyFingerprint": "ba4d14312e56659c46a87b8e9c13750b51e93334dcb59661b8d37e6f2d0647bc",
+  "peak": {
+    "forecastMw": 33643.0,
+    "at": "2026-11-13T09:00:00+09:00",
+    "interval": {
+      "p95Lower": 31456.2,
+      "p95Upper": 36655.1
+    }
+  },
+  "observationSummary": {
+    "actualHoursAtGeneration": 0,
+    "observedActualHoursAtGeneration": 0,
+    "fallbackActualHoursAtGeneration": 0,
+    "lastActualHour": null,
+    "lastObservedActualHour": null,
+    "lastFallbackActualHour": null
+  },
+  "series": [
+    {
+      "ts": "2026-11-13T00:00:00+09:00",
+      "forecastMw": 25300.5,
+      "p95LowerMw": 24080.0,
+      "p95UpperMw": 26081.8,
+      "p99LowerMw": 22859.5,
+      "p99UpperMw": 26863.0
+    },
+    {
+      "ts": "2026-11-13T01:00:00+09:00",
+      "forecastMw": 24334.0,
+      "p95LowerMw": 23152.6,
+      "p95UpperMw": 25115.2,
+      "p99LowerMw": 21971.2,
+      "p99UpperMw": 25896.5
+    },
+    {
+      "ts": "2026-11-13T02:00:00+09:00",
+      "forecastMw": 24241.0,
+      "p95LowerMw": 23459.8,
+      "p95UpperMw": 25022.2,
+      "p99LowerMw": 22678.5,
+      "p99UpperMw": 25803.5
+    },
+    {
+      "ts": "2026-11-13T03:00:00+09:00",
+      "forecastMw": 24678.5,
+      "p95LowerMw": 23897.2,
+      "p95UpperMw": 25591.4,
+      "p99LowerMw": 23116.0,
+      "p99UpperMw": 26504.3
+    },
+    {
+      "ts": "2026-11-13T04:00:00+09:00",
+      "forecastMw": 25151.9,
+      "p95LowerMw": 24370.7,
+      "p95UpperMw": 26310.0,
+      "p99LowerMw": 23589.5,
+      "p99UpperMw": 27468.1
+    },
+    {
+      "ts": "2026-11-13T05:00:00+09:00",
+      "forecastMw": 26192.0,
+      "p95LowerMw": 24998.7,
+      "p95UpperMw": 28101.2,
+      "p99LowerMw": 23805.4,
+      "p99UpperMw": 30010.4
+    },
+    {
+      "ts": "2026-11-13T06:00:00+09:00",
+      "forecastMw": 28923.9,
+      "p95LowerMw": 27068.0,
+      "p95UpperMw": 30820.6,
+      "p99LowerMw": 25212.1,
+      "p99UpperMw": 32717.3
+    },
+    {
+      "ts": "2026-11-13T07:00:00+09:00",
+      "forecastMw": 30546.8,
+      "p95LowerMw": 27244.3,
+      "p95UpperMw": 32696.2,
+      "p99LowerMw": 23941.8,
+      "p99UpperMw": 34845.6
+    },
+    {
+      "ts": "2026-11-13T08:00:00+09:00",
+      "forecastMw": 31897.6,
+      "p95LowerMw": 29185.0,
+      "p95UpperMw": 34043.5,
+      "p99LowerMw": 26472.4,
+      "p99UpperMw": 36189.4
+    },
+    {
+      "ts": "2026-11-13T09:00:00+09:00",
+      "forecastMw": 33643.0,
+      "p95LowerMw": 31456.2,
+      "p95UpperMw": 36655.1,
+      "p99LowerMw": 29269.4,
+      "p99UpperMw": 39667.2
+    },
+    {
+      "ts": "2026-11-13T10:00:00+09:00",
+      "forecastMw": 33436.9,
+      "p95LowerMw": 31523.3,
+      "p95UpperMw": 36084.1,
+      "p99LowerMw": 29609.7,
+      "p99UpperMw": 38731.3
+    },
+    {
+      "ts": "2026-11-13T11:00:00+09:00",
+      "forecastMw": 32848.1,
+      "p95LowerMw": 30596.2,
+      "p95UpperMw": 35074.5,
+      "p99LowerMw": 28344.3,
+      "p99UpperMw": 37300.9
+    },
+    {
+      "ts": "2026-11-13T12:00:00+09:00",
+      "forecastMw": 31743.5,
+      "p95LowerMw": 30189.1,
+      "p95UpperMw": 34230.4,
+      "p99LowerMw": 28634.7,
+      "p99UpperMw": 36717.3
+    },
+    {
+      "ts": "2026-11-13T13:00:00+09:00",
+      "forecastMw": 32032.2,
+      "p95LowerMw": 30056.1,
+      "p95UpperMw": 34569.8,
+      "p99LowerMw": 28080.0,
+      "p99UpperMw": 37107.4
+    },
+    {
+      "ts": "2026-11-13T14:00:00+09:00",
+      "forecastMw": 32132.5,
+      "p95LowerMw": 30213.1,
+      "p95UpperMw": 34207.6,
+      "p99LowerMw": 28293.7,
+      "p99UpperMw": 36282.7
+    },
+    {
+      "ts": "2026-11-13T15:00:00+09:00",
+      "forecastMw": 31942.8,
+      "p95LowerMw": 30063.7,
+      "p95UpperMw": 34949.4,
+      "p99LowerMw": 28184.6,
+      "p99UpperMw": 37956.0
+    },
+    {
+      "ts": "2026-11-13T16:00:00+09:00",
+      "forecastMw": 32320.9,
+      "p95LowerMw": 30231.5,
+      "p95UpperMw": 35566.3,
+      "p99LowerMw": 28142.1,
+      "p99UpperMw": 38811.7
+    },
+    {
+      "ts": "2026-11-13T17:00:00+09:00",
+      "forecastMw": 33105.2,
+      "p95LowerMw": 31464.8,
+      "p95UpperMw": 35729.8,
+      "p99LowerMw": 29824.4,
+      "p99UpperMw": 38354.4
+    },
+    {
+      "ts": "2026-11-13T18:00:00+09:00",
+      "forecastMw": 32016.7,
+      "p95LowerMw": 30617.6,
+      "p95UpperMw": 34255.3,
+      "p99LowerMw": 29218.5,
+      "p99UpperMw": 36493.9
+    },
+    {
+      "ts": "2026-11-13T19:00:00+09:00",
+      "forecastMw": 30942.1,
+      "p95LowerMw": 29358.6,
+      "p95UpperMw": 32311.7,
+      "p99LowerMw": 27775.1,
+      "p99UpperMw": 33681.3
+    },
+    {
+      "ts": "2026-11-13T20:00:00+09:00",
+      "forecastMw": 30299.5,
+      "p95LowerMw": 28621.1,
+      "p95UpperMw": 31348.5,
+      "p99LowerMw": 26942.7,
+      "p99UpperMw": 32397.5
+    },
+    {
+      "ts": "2026-11-13T21:00:00+09:00",
+      "forecastMw": 28797.5,
+      "p95LowerMw": 27313.8,
+      "p95UpperMw": 30152.1,
+      "p99LowerMw": 25830.0,
+      "p99UpperMw": 31506.7
+    },
+    {
+      "ts": "2026-11-13T22:00:00+09:00",
+      "forecastMw": 27679.2,
+      "p95LowerMw": 26696.6,
+      "p95UpperMw": 29126.2,
+      "p99LowerMw": 25714.0,
+      "p99UpperMw": 30573.2
+    },
+    {
+      "ts": "2026-11-13T23:00:00+09:00",
+      "forecastMw": 26267.8,
+      "p95LowerMw": 25202.1,
+      "p95UpperMw": 27662.9,
+      "p99LowerMw": 24136.3,
+      "p99UpperMw": 29058.0
+    }
+  ],
+  "intervalCalibration": {
+    "schemaVersion": "2.0.0",
+    "availability": "insufficient_history",
+    "method": "lead_aware_conformal_target_width",
+    "source": "finalized_actual_vs_issued_forecast",
+    "issuedAt": "2026-11-12T18:58:11+09:00",
+    "artifactSha256": "c2914b699dc306c61c6eb8f777d99fdebf1f7336dbf83bd01d851156e8b0cdd3",
+    "servingPolicyFingerprint": "ba4d14312e56659c46a87b8e9c13750b51e93334dcb59661b8d37e6f2d0647bc",
+    "floorsMwByTimeBand": {},
+    "servedTarget": {
+      "availability": "insufficient_history",
+      "application": "replace_symmetric_p95_half_width",
+      "targetWidthsMwByHour": {},
+      "detailsByHour": {
+        "0": {
+          "leadBand": "4_8h",
+          "timeBand": "overnight",
+          "groups": {
+            "same_regime": {
+              "samples": 0,
+              "days": 0,
+              "quantileMw": null
+            },
+            "all_regime": {
+              "samples": 0,
+              "days": 0,
+              "quantileMw": null
+            }
+          },
+          "application": "native_fallback"
+        },
+        "1": {
+          "leadBand": "4_8h",
+          "timeBand": "overnight",
+          "groups": {
+            "same_regime": {
+              "samples": 0,
+              "days": 0,
+              "quantileMw": null
+            },
+            "all_regime": {
+              "samples": 0,
+              "days": 0,
+              "quantileMw": null
+            }
+          },
+          "application": "native_fallback"
+        },
+        "2": {
+          "leadBand": "4_8h",
+          "timeBand": "overnight",
+          "groups": {
+            "same_regime": {
+              "samples": 0,
+              "days": 0,
+              "quantileMw": null
+            },
+            "all_regime": {
+              "samples": 0,
+              "days": 0,
+              "quantileMw": null
+            }
+          },
+          "application": "native_fallback"
+        },
+        "3": {
+          "leadBand": "8_24h",
+          "timeBand": "overnight",
+          "groups": {
+            "same_regime": {
+              "samples": 0,
+              "days": 0,
+              "quantileMw": null
+            },
+            "all_regime": {
+              "samples": 0,
+              "days": 0,
+              "quantileMw": null
+            }
+          },
+          "application": "native_fallback"
+        },
+        "4": {
+          "leadBand": "8_24h",
+          "timeBand": "overnight",
+          "groups": {
+            "same_regime": {
+              "samples": 0,
+              "days": 0,
+              "quantileMw": null
+            },
+            "all_regime": {
+              "samples": 0,
+              "days": 0,
+              "quantileMw": null
+            }
+          },
+          "application": "native_fallback"
+        },
+        "5": {
+          "leadBand": "8_24h",
+          "timeBand": "overnight",
+          "groups": {
+            "same_regime": {
+              "samples": 0,
+              "days": 0,
+              "quantileMw": null
+            },
+            "all_regime": {
+              "samples": 0,
+              "days": 0,
+              "quantileMw": null
+            }
+          },
+          "application": "native_fallback"
+        },
+        "6": {
+          "leadBand": "8_24h",
+          "timeBand": "morning",
+          "groups": {
+            "same_regime": {
+              "samples": 0,
+              "days": 0,
+              "quantileMw": null
+            },
+            "all_regime": {
+              "samples": 0,
+              "days": 0,
+              "quantileMw": null
+            }
+          },
+          "application": "native_fallback"
+        },
+        "7": {
+          "leadBand": "8_24h",
+          "timeBand": "morning",
+          "groups": {
+            "same_regime": {
+              "samples": 0,
+              "days": 0,
+              "quantileMw": null
+            },
+            "all_regime": {
+              "samples": 0,
+              "days": 0,
+              "quantileMw": null
+            }
+          },
+          "application": "native_fallback"
+        },
+        "8": {
+          "leadBand": "8_24h",
+          "timeBand": "morning",
+          "groups": {
+            "same_regime": {
+              "samples": 0,
+              "days": 0,
+              "quantileMw": null
+            },
+            "all_regime": {
+              "samples": 0,
+              "days": 0,
+              "quantileMw": null
+            }
+          },
+          "application": "native_fallback"
+        },
+        "9": {
+          "leadBand": "8_24h",
+          "timeBand": "morning",
+          "groups": {
+            "same_regime": {
+              "samples": 0,
+              "days": 0,
+              "quantileMw": null
+            },
+            "all_regime": {
+              "samples": 0,
+              "days": 0,
+              "quantileMw": null
+            }
+          },
+          "application": "native_fallback"
+        },
+        "10": {
+          "leadBand": "8_24h",
+          "timeBand": "morning",
+          "groups": {
+            "same_regime": {
+              "samples": 0,
+              "days": 0,
+              "quantileMw": null
+            },
+            "all_regime": {
+              "samples": 0,
+              "days": 0,
+              "quantileMw": null
+            }
+          },
+          "application": "native_fallback"
+        },
+        "11": {
+          "leadBand": "8_24h",
+          "timeBand": "daytime",
+          "groups": {
+            "same_regime": {
+              "samples": 0,
+              "days": 0,
+              "quantileMw": null
+            },
+            "all_regime": {
+              "samples": 0,
+              "days": 0,
+              "quantileMw": null
+            }
+          },
+          "application": "native_fallback"
+        },
+        "12": {
+          "leadBand": "8_24h",
+          "timeBand": "daytime",
+          "groups": {
+            "same_regime": {
+              "samples": 0,
+              "days": 0,
+              "quantileMw": null
+            },
+            "all_regime": {
+              "samples": 0,
+              "days": 0,
+              "quantileMw": null
+            }
+          },
+          "application": "native_fallback"
+        },
+        "13": {
+          "leadBand": "8_24h",
+          "timeBand": "daytime",
+          "groups": {
+            "same_regime": {
+              "samples": 0,
+              "days": 0,
+              "quantileMw": null
+            },
+            "all_regime": {
+              "samples": 0,
+              "days": 0,
+              "quantileMw": null
+            }
+          },
+          "application": "native_fallback"
+        },
+        "14": {
+          "leadBand": "8_24h",
+          "timeBand": "daytime",
+          "groups": {
+            "same_regime": {
+              "samples": 0,
+              "days": 0,
+              "quantileMw": null
+            },
+            "all_regime": {
+              "samples": 0,
+              "days": 0,
+              "quantileMw": null
+            }
+          },
+          "application": "native_fallback"
+        },
+        "15": {
+          "leadBand": "8_24h",
+          "timeBand": "daytime",
+          "groups": {
+            "same_regime": {
+              "samples": 0,
+              "days": 0,
+              "quantileMw": null
+            },
+            "all_regime": {
+              "samples": 0,
+              "days": 0,
+              "quantileMw": null
+            }
+          },
+          "application": "native_fallback"
+        },
+        "16": {
+          "leadBand": "8_24h",
+          "timeBand": "late_afternoon",
+          "groups": {
+            "same_regime": {
+              "samples": 0,
+              "days": 0,
+              "quantileMw": null
+            },
+            "all_regime": {
+              "samples": 0,
+              "days": 0,
+              "quantileMw": null
+            }
+          },
+          "application": "native_fallback"
+        },
+        "17": {
+          "leadBand": "8_24h",
+          "timeBand": "late_afternoon",
+          "groups": {
+            "same_regime": {
+              "samples": 0,
+              "days": 0,
+              "quantileMw": null
+            },
+            "all_regime": {
+              "samples": 0,
+              "days": 0,
+              "quantileMw": null
+            }
+          },
+          "application": "native_fallback"
+        },
+        "18": {
+          "leadBand": "8_24h",
+          "timeBand": "late_afternoon",
+          "groups": {
+            "same_regime": {
+              "samples": 0,
+              "days": 0,
+              "quantileMw": null
+            },
+            "all_regime": {
+              "samples": 0,
+              "days": 0,
+              "quantileMw": null
+            }
+          },
+          "application": "native_fallback"
+        },
+        "19": {
+          "leadBand": "24_48h",
+          "timeBand": "evening",
+          "groups": {
+            "same_regime": {
+              "samples": 0,
+              "days": 0,
+              "quantileMw": null
+            },
+            "all_regime": {
+              "samples": 0,
+              "days": 0,
+              "quantileMw": null
+            }
+          },
+          "application": "native_fallback"
+        },
+        "20": {
+          "leadBand": "24_48h",
+          "timeBand": "evening",
+          "groups": {
+            "same_regime": {
+              "samples": 0,
+              "days": 0,
+              "quantileMw": null
+            },
+            "all_regime": {
+              "samples": 0,
+              "days": 0,
+              "quantileMw": null
+            }
+          },
+          "application": "native_fallback"
+        },
+        "21": {
+          "leadBand": "24_48h",
+          "timeBand": "evening",
+          "groups": {
+            "same_regime": {
+              "samples": 0,
+              "days": 0,
+              "quantileMw": null
+            },
+            "all_regime": {
+              "samples": 0,
+              "days": 0,
+              "quantileMw": null
+            }
+          },
+          "application": "native_fallback"
+        },
+        "22": {
+          "leadBand": "24_48h",
+          "timeBand": "evening",
+          "groups": {
+            "same_regime": {
+              "samples": 0,
+              "days": 0,
+              "quantileMw": null
+            },
+            "all_regime": {
+              "samples": 0,
+              "days": 0,
+              "quantileMw": null
+            }
+          },
+          "application": "native_fallback"
+        },
+        "23": {
+          "leadBand": "24_48h",
+          "timeBand": "evening",
+          "groups": {
+            "same_regime": {
+              "samples": 0,
+              "days": 0,
+              "quantileMw": null
+            },
+            "all_regime": {
+              "samples": 0,
+              "days": 0,
+              "quantileMw": null
+            }
+          },
+          "application": "native_fallback"
+        }
+      }
+    },
+    "targetCoveragePct": 95.0,
+    "minimumSamples": 24,
+    "minimumHistoryDays": 4,
+    "historyCutoffExclusive": "2026-11-11",
+    "excludedSnapshots": {
+      "artifact": 0,
+      "policy": 0,
+      "timestamp": 0,
+      "incomplete_actual": 0
+    },
+    "selectedSamples": 0,
+    "preservedObservedHours": []
+  },
+  "forecastBuild": {
+    "stageSummary": {
+      "raw_lgbm": {
+        "hours": 24,
+        "peak": {
+          "forecastMw": 33643.0,
+          "at": "2026-11-13T09:00:00+09:00",
+          "interval": {
+            "p95Lower": 31893.6,
+            "p95Upper": 36052.7
+          }
+        }
+      },
+      "same_regime_level_calibrated": {
+        "hours": 24,
+        "peak": {
+          "forecastMw": 33643.0,
+          "at": "2026-11-13T09:00:00+09:00",
+          "interval": {
+            "p95Lower": 31893.6,
+            "p95Upper": 36052.7
+          }
+        }
+      },
+      "analog_adjusted": {
+        "hours": 24,
+        "peak": {
+          "forecastMw": 33643.0,
+          "at": "2026-11-13T09:00:00+09:00",
+          "interval": {
+            "p95Lower": 31893.6,
+            "p95Upper": 36052.7
+          }
+        }
+      },
+      "post_holiday_guarded": {
+        "hours": 24,
+        "peak": {
+          "forecastMw": 33643.0,
+          "at": "2026-11-13T09:00:00+09:00",
+          "interval": {
+            "p95Lower": 31893.6,
+            "p95Upper": 36052.7
+          }
+        }
+      },
+      "midday_guarded": {
+        "hours": 24,
+        "peak": {
+          "forecastMw": 33643.0,
+          "at": "2026-11-13T09:00:00+09:00",
+          "interval": {
+            "p95Lower": 31893.6,
+            "p95Upper": 36052.7
+          }
+        }
+      },
+      "localized_shape_guarded": {
+        "hours": 24,
+        "peak": {
+          "forecastMw": 33643.0,
+          "at": "2026-11-13T09:00:00+09:00",
+          "interval": {
+            "p95Lower": 31893.6,
+            "p95Upper": 36052.7
+          }
+        }
+      },
+      "pre_calibration": {
+        "hours": 24,
+        "peak": {
+          "forecastMw": 33643.0,
+          "at": "2026-11-13T09:00:00+09:00",
+          "interval": {
+            "p95Lower": 31893.6,
+            "p95Upper": 36052.7
+          }
+        }
+      }
+    },
+    "series": [
+      {
+        "hour": 0,
+        "ts": "2026-11-13T00:00:00+09:00",
+        "forecastMwByStage": {
+          "raw_lgbm": 25300.5,
+          "same_regime_level_calibrated": 25300.5,
+          "analog_adjusted": 25300.5,
+          "post_holiday_guarded": 25300.5,
+          "midday_guarded": 25300.5,
+          "localized_shape_guarded": 25300.5,
+          "pre_calibration": 25300.5
+        }
+      },
+      {
+        "hour": 1,
+        "ts": "2026-11-13T01:00:00+09:00",
+        "forecastMwByStage": {
+          "raw_lgbm": 24334.0,
+          "same_regime_level_calibrated": 24334.0,
+          "analog_adjusted": 24334.0,
+          "post_holiday_guarded": 24334.0,
+          "midday_guarded": 24334.0,
+          "localized_shape_guarded": 24334.0,
+          "pre_calibration": 24334.0
+        }
+      },
+      {
+        "hour": 2,
+        "ts": "2026-11-13T02:00:00+09:00",
+        "forecastMwByStage": {
+          "raw_lgbm": 24241.0,
+          "same_regime_level_calibrated": 24241.0,
+          "analog_adjusted": 24241.0,
+          "post_holiday_guarded": 24241.0,
+          "midday_guarded": 24241.0,
+          "localized_shape_guarded": 24241.0,
+          "pre_calibration": 24241.0
+        }
+      },
+      {
+        "hour": 3,
+        "ts": "2026-11-13T03:00:00+09:00",
+        "forecastMwByStage": {
+          "raw_lgbm": 24678.5,
+          "same_regime_level_calibrated": 24678.5,
+          "analog_adjusted": 24678.5,
+          "post_holiday_guarded": 24678.5,
+          "midday_guarded": 24678.5,
+          "localized_shape_guarded": 24678.5,
+          "pre_calibration": 24678.5
+        }
+      },
+      {
+        "hour": 4,
+        "ts": "2026-11-13T04:00:00+09:00",
+        "forecastMwByStage": {
+          "raw_lgbm": 25151.9,
+          "same_regime_level_calibrated": 25151.9,
+          "analog_adjusted": 25151.9,
+          "post_holiday_guarded": 25151.9,
+          "midday_guarded": 25151.9,
+          "localized_shape_guarded": 25151.9,
+          "pre_calibration": 25151.9
+        }
+      },
+      {
+        "hour": 5,
+        "ts": "2026-11-13T05:00:00+09:00",
+        "forecastMwByStage": {
+          "raw_lgbm": 26192.0,
+          "same_regime_level_calibrated": 26192.0,
+          "analog_adjusted": 26192.0,
+          "post_holiday_guarded": 26192.0,
+          "midday_guarded": 26192.0,
+          "localized_shape_guarded": 26192.0,
+          "pre_calibration": 26192.0
+        }
+      },
+      {
+        "hour": 6,
+        "ts": "2026-11-13T06:00:00+09:00",
+        "forecastMwByStage": {
+          "raw_lgbm": 28923.9,
+          "same_regime_level_calibrated": 28923.9,
+          "analog_adjusted": 28923.9,
+          "post_holiday_guarded": 28923.9,
+          "midday_guarded": 28923.9,
+          "localized_shape_guarded": 28923.9,
+          "pre_calibration": 28923.9
+        }
+      },
+      {
+        "hour": 7,
+        "ts": "2026-11-13T07:00:00+09:00",
+        "forecastMwByStage": {
+          "raw_lgbm": 30546.8,
+          "same_regime_level_calibrated": 30546.8,
+          "analog_adjusted": 30546.8,
+          "post_holiday_guarded": 30546.8,
+          "midday_guarded": 30546.8,
+          "localized_shape_guarded": 30546.8,
+          "pre_calibration": 30546.8
+        }
+      },
+      {
+        "hour": 8,
+        "ts": "2026-11-13T08:00:00+09:00",
+        "forecastMwByStage": {
+          "raw_lgbm": 31897.6,
+          "same_regime_level_calibrated": 31897.6,
+          "analog_adjusted": 31897.6,
+          "post_holiday_guarded": 31897.6,
+          "midday_guarded": 31897.6,
+          "localized_shape_guarded": 31897.6,
+          "pre_calibration": 31897.6
+        }
+      },
+      {
+        "hour": 9,
+        "ts": "2026-11-13T09:00:00+09:00",
+        "forecastMwByStage": {
+          "raw_lgbm": 33643.0,
+          "same_regime_level_calibrated": 33643.0,
+          "analog_adjusted": 33643.0,
+          "post_holiday_guarded": 33643.0,
+          "midday_guarded": 33643.0,
+          "localized_shape_guarded": 33643.0,
+          "pre_calibration": 33643.0
+        }
+      },
+      {
+        "hour": 10,
+        "ts": "2026-11-13T10:00:00+09:00",
+        "forecastMwByStage": {
+          "raw_lgbm": 33186.9,
+          "same_regime_level_calibrated": 33186.9,
+          "analog_adjusted": 33186.9,
+          "post_holiday_guarded": 33436.9,
+          "midday_guarded": 33436.9,
+          "localized_shape_guarded": 33436.9,
+          "pre_calibration": 33436.9
+        }
+      },
+      {
+        "hour": 11,
+        "ts": "2026-11-13T11:00:00+09:00",
+        "forecastMwByStage": {
+          "raw_lgbm": 32598.1,
+          "same_regime_level_calibrated": 32598.1,
+          "analog_adjusted": 32598.1,
+          "post_holiday_guarded": 32848.1,
+          "midday_guarded": 32848.1,
+          "localized_shape_guarded": 32848.1,
+          "pre_calibration": 32848.1
+        }
+      },
+      {
+        "hour": 12,
+        "ts": "2026-11-13T12:00:00+09:00",
+        "forecastMwByStage": {
+          "raw_lgbm": 31493.5,
+          "same_regime_level_calibrated": 31493.5,
+          "analog_adjusted": 31493.5,
+          "post_holiday_guarded": 31743.5,
+          "midday_guarded": 31743.5,
+          "localized_shape_guarded": 31743.5,
+          "pre_calibration": 31743.5
+        }
+      },
+      {
+        "hour": 13,
+        "ts": "2026-11-13T13:00:00+09:00",
+        "forecastMwByStage": {
+          "raw_lgbm": 31782.2,
+          "same_regime_level_calibrated": 31782.2,
+          "analog_adjusted": 31782.2,
+          "post_holiday_guarded": 32032.2,
+          "midday_guarded": 32032.2,
+          "localized_shape_guarded": 32032.2,
+          "pre_calibration": 32032.2
+        }
+      },
+      {
+        "hour": 14,
+        "ts": "2026-11-13T14:00:00+09:00",
+        "forecastMwByStage": {
+          "raw_lgbm": 31882.5,
+          "same_regime_level_calibrated": 31882.5,
+          "analog_adjusted": 31882.5,
+          "post_holiday_guarded": 32132.5,
+          "midday_guarded": 32132.5,
+          "localized_shape_guarded": 32132.5,
+          "pre_calibration": 32132.5
+        }
+      },
+      {
+        "hour": 15,
+        "ts": "2026-11-13T15:00:00+09:00",
+        "forecastMwByStage": {
+          "raw_lgbm": 31692.8,
+          "same_regime_level_calibrated": 31692.8,
+          "analog_adjusted": 31692.8,
+          "post_holiday_guarded": 31942.8,
+          "midday_guarded": 31942.8,
+          "localized_shape_guarded": 31942.8,
+          "pre_calibration": 31942.8
+        }
+      },
+      {
+        "hour": 16,
+        "ts": "2026-11-13T16:00:00+09:00",
+        "forecastMwByStage": {
+          "raw_lgbm": 32070.9,
+          "same_regime_level_calibrated": 32070.9,
+          "analog_adjusted": 32070.9,
+          "post_holiday_guarded": 32320.9,
+          "midday_guarded": 32320.9,
+          "localized_shape_guarded": 32320.9,
+          "pre_calibration": 32320.9
+        }
+      },
+      {
+        "hour": 17,
+        "ts": "2026-11-13T17:00:00+09:00",
+        "forecastMwByStage": {
+          "raw_lgbm": 32855.2,
+          "same_regime_level_calibrated": 32855.2,
+          "analog_adjusted": 32855.2,
+          "post_holiday_guarded": 33105.2,
+          "midday_guarded": 33105.2,
+          "localized_shape_guarded": 33105.2,
+          "pre_calibration": 33105.2
+        }
+      },
+      {
+        "hour": 18,
+        "ts": "2026-11-13T18:00:00+09:00",
+        "forecastMwByStage": {
+          "raw_lgbm": 32016.7,
+          "same_regime_level_calibrated": 32016.7,
+          "analog_adjusted": 32016.7,
+          "post_holiday_guarded": 32016.7,
+          "midday_guarded": 32016.7,
+          "localized_shape_guarded": 32016.7,
+          "pre_calibration": 32016.7
+        }
+      },
+      {
+        "hour": 19,
+        "ts": "2026-11-13T19:00:00+09:00",
+        "forecastMwByStage": {
+          "raw_lgbm": 30942.1,
+          "same_regime_level_calibrated": 30942.1,
+          "analog_adjusted": 30942.1,
+          "post_holiday_guarded": 30942.1,
+          "midday_guarded": 30942.1,
+          "localized_shape_guarded": 30942.1,
+          "pre_calibration": 30942.1
+        }
+      },
+      {
+        "hour": 20,
+        "ts": "2026-11-13T20:00:00+09:00",
+        "forecastMwByStage": {
+          "raw_lgbm": 30299.5,
+          "same_regime_level_calibrated": 30299.5,
+          "analog_adjusted": 30299.5,
+          "post_holiday_guarded": 30299.5,
+          "midday_guarded": 30299.5,
+          "localized_shape_guarded": 30299.5,
+          "pre_calibration": 30299.5
+        }
+      },
+      {
+        "hour": 21,
+        "ts": "2026-11-13T21:00:00+09:00",
+        "forecastMwByStage": {
+          "raw_lgbm": 28797.5,
+          "same_regime_level_calibrated": 28797.5,
+          "analog_adjusted": 28797.5,
+          "post_holiday_guarded": 28797.5,
+          "midday_guarded": 28797.5,
+          "localized_shape_guarded": 28797.5,
+          "pre_calibration": 28797.5
+        }
+      },
+      {
+        "hour": 22,
+        "ts": "2026-11-13T22:00:00+09:00",
+        "forecastMwByStage": {
+          "raw_lgbm": 27679.2,
+          "same_regime_level_calibrated": 27679.2,
+          "analog_adjusted": 27679.2,
+          "post_holiday_guarded": 27679.2,
+          "midday_guarded": 27679.2,
+          "localized_shape_guarded": 27679.2,
+          "pre_calibration": 27679.2
+        }
+      },
+      {
+        "hour": 23,
+        "ts": "2026-11-13T23:00:00+09:00",
+        "forecastMwByStage": {
+          "raw_lgbm": 26267.8,
+          "same_regime_level_calibrated": 26267.8,
+          "analog_adjusted": 26267.8,
+          "post_holiday_guarded": 26267.8,
+          "midday_guarded": 26267.8,
+          "localized_shape_guarded": 26267.8,
+          "pre_calibration": 26267.8
+        }
+      }
+    ],
+    "metadata": {
+      "sameRegimeDayLevelCalibration": {
+        "applied": false,
+        "adjustmentMw": 0.0,
+        "historyDates": [],
+        "stateStatus": "stale_state",
+        "latestResidualDate": "2026-10-08",
+        "stateLagDays": 35,
+        "expectedHistoryDates": [],
+        "rejectedOriginEntries": 0
+      }
+    }
+  }
+}
