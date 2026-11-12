@@ -1,12 +1,12 @@
 {
   "schemaVersion": "1.0.0",
   "timezone": "Asia/Tokyo",
-  "generatedAt": "2026-11-12T19:53:46+09:00",
+  "generatedAt": "2026-11-13T03:26:11+09:00",
   "availability": "ok",
   "latest": {
     "schemaVersion": "1.0.0",
     "timezone": "Asia/Tokyo",
-    "generatedAt": "2026-11-12T19:53:46+09:00",
+    "generatedAt": "2026-11-13T03:26:11+09:00",
     "date": "2026-11-07",
     "availability": "ok",
     "model": {
@@ -176,66 +176,6 @@
     ]
   },
   "reports": [
-    {
-      "date": "2026-10-29",
-      "availability": "ok",
-      "model": {
-        "name": "lgbm_quantile_q50_intraday_residual",
-        "family": "lgbm_quantile_q50"
-      },
-      "summary": {
-        "comparableHours": 22,
-        "modelMaeMw": 575.2,
-        "tepcoMaeMw": 175.9,
-        "modelWapePct": 2.04,
-        "tepcoWapePct": 0.62,
-        "modelRmseMw": 662.9,
-        "tepcoRmseMw": 221.6,
-        "modelMaxErrorMw": 1152.1,
-        "tepcoMaxErrorMw": 620.0,
-        "modelMaxErrorHour": 8,
-        "tepcoMaxErrorHour": 13,
-        "maeGapMw": 399.3,
-        "wapeGapPct": 1.42,
-        "verdict": "tepco_better",
-        "modelWins": 2,
-        "tepcoWins": 20,
-        "ties": 0,
-        "modelAdvantageHours": 2,
-        "tepcoAdvantageHours": 20,
-        "equalHours": 0,
-        "modelAdvantageRate": 0.091
-      },
-      "insights": [
-        {
-          "code": "tepco_closer_overall",
-          "severity": "warning",
-          "title": "TEPCO was closer overall.",
-          "evidence": {
-            "maeGapMw": 399.3,
-            "wapeGapPct": 1.42
-          }
-        },
-        {
-          "code": "morning_ramp_underestimated",
-          "severity": "warning",
-          "title": "Morning demand rose faster than the model expected.",
-          "evidence": {
-            "band": "06-10",
-            "modelBiasMw": -752.8
-          }
-        },
-        {
-          "code": "afternoon_plateau_underestimated",
-          "severity": "warning",
-          "title": "Late afternoon demand stayed higher than the model expected.",
-          "evidence": {
-            "band": "16-18",
-            "modelBiasMw": -938.4
-          }
-        }
-      ]
-    },
     {
       "date": "2026-10-30",
       "availability": "ok",
