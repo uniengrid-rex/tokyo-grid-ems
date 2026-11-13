@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1.0.0",
   "timezone": "Asia/Tokyo",
-  "generatedAt": "2026-11-13T07:17:42+09:00",
+  "generatedAt": "2026-11-13T10:54:38+09:00",
   "availability": "ok",
   "methodology": {
     "type": "matched_capture_lead_time_evaluation",
@@ -34,7 +34,7 @@
     ]
   },
   "coverage": {
-    "matchedRows": 6300,
+    "matchedRows": 6307,
     "dates": 91,
     "retentionDays": 120
   },
@@ -50,31 +50,31 @@
         "0_2h": {
           "dates": 28,
           "model": {
-            "hours": 444,
-            "maeMw": 526.1,
-            "wapePct": 1.92,
-            "rmseMw": 715.2,
+            "hours": 447,
+            "maeMw": 525.0,
+            "wapePct": 1.914,
+            "rmseMw": 713.5,
             "maxErrorMw": 3002.2
           },
           "tepco": {
-            "hours": 444,
-            "maeMw": 276.6,
-            "wapePct": 1.01,
-            "rmseMw": 383.7,
+            "hours": 447,
+            "maeMw": 277.8,
+            "wapePct": 1.013,
+            "rmseMw": 384.4,
             "maxErrorMw": 1560.0
           },
-          "maeRatio": 1.902,
-          "wapeRatio": 1.901,
-          "rmseRatio": 1.864,
+          "maeRatio": 1.89,
+          "wapeRatio": 1.889,
+          "rmseRatio": 1.856,
           "maxErrorRatio": 1.924,
           "pairedDifference": {
             "dates": 28,
-            "meanModelMinusTepcoAbsErrorMw": 257.4,
+            "meanModelMinusTepcoAbsErrorMw": 254.8,
             "confidenceLevel": 0.95,
-            "lowerMw": 172.0,
-            "upperMw": 361.8,
-            "maeRatioLower": 1.608,
-            "maeRatioUpper": 2.352,
+            "lowerMw": 168.9,
+            "upperMw": 358.3,
+            "maeRatioLower": 1.571,
+            "maeRatioUpper": 2.301,
             "method": "date_block_bootstrap"
           },
           "timeBands": {
@@ -97,20 +97,20 @@
             },
             "morning": {
               "model": {
-                "hours": 86,
-                "maeMw": 718.8,
-                "wapePct": 2.651,
-                "rmseMw": 937.5,
+                "hours": 89,
+                "maeMw": 706.8,
+                "wapePct": 2.591,
+                "rmseMw": 924.3,
                 "maxErrorMw": 3002.2
               },
               "tepco": {
-                "hours": 86,
+                "hours": 89,
                 "maeMw": 441.9,
-                "wapePct": 1.63,
-                "rmseMw": 553.7,
+                "wapePct": 1.62,
+                "rmseMw": 551.4,
                 "maxErrorMw": 1560.0
               },
-              "maeRatio": 1.627
+              "maeRatio": 1.599
             },
             "daytime": {
               "model": {
@@ -168,31 +168,31 @@
         "2_4h": {
           "dates": 28,
           "model": {
-            "hours": 395,
-            "maeMw": 624.5,
-            "wapePct": 2.228,
-            "rmseMw": 822.5,
+            "hours": 397,
+            "maeMw": 622.1,
+            "wapePct": 2.218,
+            "rmseMw": 820.5,
             "maxErrorMw": 3163.0
           },
           "tepco": {
-            "hours": 395,
-            "maeMw": 319.5,
-            "wapePct": 1.14,
-            "rmseMw": 441.9,
+            "hours": 397,
+            "maeMw": 320.3,
+            "wapePct": 1.142,
+            "rmseMw": 442.2,
             "maxErrorMw": 1950.0
           },
-          "maeRatio": 1.955,
-          "wapeRatio": 1.954,
-          "rmseRatio": 1.861,
+          "maeRatio": 1.942,
+          "wapeRatio": 1.942,
+          "rmseRatio": 1.855,
           "maxErrorRatio": 1.622,
           "pairedDifference": {
             "dates": 28,
-            "meanModelMinusTepcoAbsErrorMw": 340.5,
+            "meanModelMinusTepcoAbsErrorMw": 326.3,
             "confidenceLevel": 0.95,
-            "lowerMw": 221.7,
-            "upperMw": 472.3,
-            "maeRatioLower": 1.657,
-            "maeRatioUpper": 2.499,
+            "lowerMw": 200.6,
+            "upperMw": 459.9,
+            "maeRatioLower": 1.595,
+            "maeRatioUpper": 2.437,
             "method": "date_block_bootstrap"
           },
           "timeBands": {
@@ -215,20 +215,20 @@
             },
             "morning": {
               "model": {
-                "hours": 120,
-                "maeMw": 744.1,
-                "wapePct": 2.675,
-                "rmseMw": 973.3,
+                "hours": 122,
+                "maeMw": 734.3,
+                "wapePct": 2.633,
+                "rmseMw": 965.4,
                 "maxErrorMw": 3118.0
               },
               "tepco": {
-                "hours": 120,
-                "maeMw": 436.8,
-                "wapePct": 1.57,
-                "rmseMw": 578.2,
+                "hours": 122,
+                "maeMw": 437.6,
+                "wapePct": 1.569,
+                "rmseMw": 576.9,
                 "maxErrorMw": 1950.0
               },
-              "maeRatio": 1.704
+              "maeRatio": 1.678
             },
             "daytime": {
               "model": {
@@ -284,33 +284,33 @@
           }
         },
         "4_8h": {
-          "dates": 27,
+          "dates": 28,
           "model": {
-            "hours": 412,
-            "maeMw": 729.4,
-            "wapePct": 2.503,
-            "rmseMw": 943.8,
+            "hours": 414,
+            "maeMw": 727.7,
+            "wapePct": 2.495,
+            "rmseMw": 942.1,
             "maxErrorMw": 3286.2
           },
           "tepco": {
-            "hours": 412,
-            "maeMw": 409.5,
-            "wapePct": 1.405,
-            "rmseMw": 549.5,
+            "hours": 414,
+            "maeMw": 408.9,
+            "wapePct": 1.402,
+            "rmseMw": 548.5,
             "maxErrorMw": 2450.0
           },
-          "maeRatio": 1.781,
-          "wapeRatio": 1.781,
+          "maeRatio": 1.78,
+          "wapeRatio": 1.78,
           "rmseRatio": 1.718,
           "maxErrorRatio": 1.341,
           "pairedDifference": {
-            "dates": 27,
-            "meanModelMinusTepcoAbsErrorMw": 324.4,
+            "dates": 28,
+            "meanModelMinusTepcoAbsErrorMw": 316.1,
             "confidenceLevel": 0.95,
-            "lowerMw": 169.1,
-            "upperMw": 512.9,
-            "maeRatioLower": 1.368,
-            "maeRatioUpper": 2.336,
+            "lowerMw": 173.2,
+            "upperMw": 494.4,
+            "maeRatioLower": 1.378,
+            "maeRatioUpper": 2.292,
             "method": "date_block_bootstrap"
           },
           "timeBands": {
@@ -333,20 +333,20 @@
             },
             "morning": {
               "model": {
-                "hours": 124,
-                "maeMw": 808.4,
-                "wapePct": 2.901,
-                "rmseMw": 1036.6,
+                "hours": 126,
+                "maeMw": 801.3,
+                "wapePct": 2.867,
+                "rmseMw": 1030.1,
                 "maxErrorMw": 3279.2
               },
               "tepco": {
-                "hours": 124,
-                "maeMw": 490.2,
-                "wapePct": 1.759,
-                "rmseMw": 639.4,
+                "hours": 126,
+                "maeMw": 486.7,
+                "wapePct": 1.741,
+                "rmseMw": 635.3,
                 "maxErrorMw": 2450.0
               },
-              "maeRatio": 1.649
+              "maeRatio": 1.646
             },
             "daytime": {
               "model": {
@@ -532,31 +532,31 @@
         "0_2h": {
           "dates": 84,
           "model": {
-            "hours": 1691,
-            "maeMw": 659.2,
-            "wapePct": 2.205,
-            "rmseMw": 903.6,
+            "hours": 1694,
+            "maeMw": 658.7,
+            "wapePct": 2.203,
+            "rmseMw": 902.9,
             "maxErrorMw": 4262.7
           },
           "tepco": {
-            "hours": 1691,
-            "maeMw": 368.1,
+            "hours": 1694,
+            "maeMw": 368.2,
             "wapePct": 1.232,
-            "rmseMw": 547.6,
+            "rmseMw": 547.5,
             "maxErrorMw": 2940.0
           },
-          "maeRatio": 1.791,
-          "wapeRatio": 1.79,
-          "rmseRatio": 1.65,
+          "maeRatio": 1.789,
+          "wapeRatio": 1.788,
+          "rmseRatio": 1.649,
           "maxErrorRatio": 1.45,
           "pairedDifference": {
             "dates": 84,
-            "meanModelMinusTepcoAbsErrorMw": 292.2,
+            "meanModelMinusTepcoAbsErrorMw": 291.4,
             "confidenceLevel": 0.95,
-            "lowerMw": 242.5,
-            "upperMw": 343.9,
-            "maeRatioLower": 1.664,
-            "maeRatioUpper": 1.966,
+            "lowerMw": 242.0,
+            "upperMw": 342.8,
+            "maeRatioLower": 1.652,
+            "maeRatioUpper": 1.952,
             "method": "date_block_bootstrap"
           },
           "timeBands": {
@@ -579,20 +579,20 @@
             },
             "morning": {
               "model": {
-                "hours": 360,
-                "maeMw": 786.9,
-                "wapePct": 2.656,
-                "rmseMw": 1023.3,
+                "hours": 363,
+                "maeMw": 783.4,
+                "wapePct": 2.642,
+                "rmseMw": 1019.7,
                 "maxErrorMw": 4013.9
               },
               "tepco": {
-                "hours": 360,
-                "maeMw": 492.6,
-                "wapePct": 1.662,
-                "rmseMw": 663.1,
+                "hours": 363,
+                "maeMw": 492.2,
+                "wapePct": 1.66,
+                "rmseMw": 661.8,
                 "maxErrorMw": 2940.0
               },
-              "maeRatio": 1.597
+              "maeRatio": 1.592
             },
             "daytime": {
               "model": {
@@ -650,31 +650,31 @@
         "2_4h": {
           "dates": 84,
           "model": {
-            "hours": 1536,
-            "maeMw": 867.4,
-            "wapePct": 2.837,
-            "rmseMw": 1232.7,
+            "hours": 1538,
+            "maeMw": 866.5,
+            "wapePct": 2.834,
+            "rmseMw": 1231.9,
             "maxErrorMw": 7791.8
           },
           "tepco": {
-            "hours": 1536,
+            "hours": 1538,
             "maeMw": 512.7,
             "wapePct": 1.677,
-            "rmseMw": 754.4,
+            "rmseMw": 754.1,
             "maxErrorMw": 3860.0
           },
-          "maeRatio": 1.692,
-          "wapeRatio": 1.692,
+          "maeRatio": 1.69,
+          "wapeRatio": 1.69,
           "rmseRatio": 1.634,
           "maxErrorRatio": 2.019,
           "pairedDifference": {
             "dates": 84,
-            "meanModelMinusTepcoAbsErrorMw": 366.8,
+            "meanModelMinusTepcoAbsErrorMw": 362.0,
             "confidenceLevel": 0.95,
-            "lowerMw": 287.0,
-            "upperMw": 454.2,
-            "maeRatioLower": 1.567,
-            "maeRatioUpper": 1.923,
+            "lowerMw": 280.2,
+            "upperMw": 447.8,
+            "maeRatioLower": 1.553,
+            "maeRatioUpper": 1.913,
             "method": "date_block_bootstrap"
           },
           "timeBands": {
@@ -697,20 +697,20 @@
             },
             "morning": {
               "model": {
-                "hours": 396,
-                "maeMw": 877.8,
-                "wapePct": 2.97,
-                "rmseMw": 1188.1,
+                "hours": 398,
+                "maeMw": 874.1,
+                "wapePct": 2.957,
+                "rmseMw": 1185.2,
                 "maxErrorMw": 6213.8
               },
               "tepco": {
-                "hours": 396,
-                "maeMw": 590.9,
-                "wapePct": 2.0,
-                "rmseMw": 842.0,
+                "hours": 398,
+                "maeMw": 590.4,
+                "wapePct": 1.997,
+                "rmseMw": 840.6,
                 "maxErrorMw": 3860.0
               },
-              "maeRatio": 1.486
+              "maeRatio": 1.481
             },
             "daytime": {
               "model": {
@@ -766,33 +766,33 @@
           }
         },
         "4_8h": {
-          "dates": 83,
+          "dates": 84,
           "model": {
-            "hours": 1460,
-            "maeMw": 1010.5,
-            "wapePct": 3.213,
-            "rmseMw": 1445.8,
+            "hours": 1462,
+            "maeMw": 1009.6,
+            "wapePct": 3.21,
+            "rmseMw": 1444.9,
             "maxErrorMw": 9263.1
           },
           "tepco": {
-            "hours": 1460,
-            "maeMw": 634.3,
-            "wapePct": 2.017,
-            "rmseMw": 908.5,
+            "hours": 1462,
+            "maeMw": 633.8,
+            "wapePct": 2.016,
+            "rmseMw": 908.0,
             "maxErrorMw": 4640.0
           },
           "maeRatio": 1.593,
-          "wapeRatio": 1.593,
+          "wapeRatio": 1.592,
           "rmseRatio": 1.591,
           "maxErrorRatio": 1.996,
           "pairedDifference": {
-            "dates": 83,
-            "meanModelMinusTepcoAbsErrorMw": 378.5,
+            "dates": 84,
+            "meanModelMinusTepcoAbsErrorMw": 375.1,
             "confidenceLevel": 0.95,
-            "lowerMw": 272.8,
-            "upperMw": 499.1,
-            "maeRatioLower": 1.429,
-            "maeRatioUpper": 1.809,
+            "lowerMw": 274.2,
+            "upperMw": 487.6,
+            "maeRatioLower": 1.434,
+            "maeRatioUpper": 1.803,
             "method": "date_block_bootstrap"
           },
           "timeBands": {
@@ -815,17 +815,17 @@
             },
             "morning": {
               "model": {
-                "hours": 396,
-                "maeMw": 931.3,
-                "wapePct": 3.134,
-                "rmseMw": 1210.1,
+                "hours": 398,
+                "maeMw": 928.4,
+                "wapePct": 3.123,
+                "rmseMw": 1207.5,
                 "maxErrorMw": 4166.7
               },
               "tepco": {
-                "hours": 396,
-                "maeMw": 644.6,
-                "wapePct": 2.169,
-                "rmseMw": 897.3,
+                "hours": 398,
+                "maeMw": 642.7,
+                "wapePct": 2.162,
+                "rmseMw": 895.2,
                 "maxErrorMw": 3970.0
               },
               "maeRatio": 1.445
@@ -1010,7 +1010,7 @@
     "failures": [
       "28d.0_2h.insufficient_hours",
       "28d.2_4h.insufficient_hours",
-      "28d.4_8h.insufficient_days",
+      "28d.4_8h.insufficient_hours",
       "28d.8_24h.insufficient_days",
       "84d.0_2h.mae_ratio",
       "84d.0_2h.wape_ratio",
@@ -1023,7 +1023,7 @@
       "84d.0_2h.late_afternoon.mae_ratio",
       "84d.0_2h.evening.mae_ratio",
       "84d.2_4h.insufficient_hours",
-      "84d.4_8h.insufficient_days",
+      "84d.4_8h.insufficient_hours",
       "84d.8_24h.insufficient_days"
     ],
     "thresholds": {
