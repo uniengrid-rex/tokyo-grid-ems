@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1.0.0",
   "timezone": "Asia/Tokyo",
-  "generatedAt": "2026-11-15T04:31:30+09:00",
+  "generatedAt": "2026-11-15T04:58:08+09:00",
   "retentionDays": 21,
   "maxPerDay": 16,
   "dates": [
@@ -588,12 +588,12 @@
     {
       "date": "2026-11-15",
       "path": "forecast_snapshots/2026-11-15/index.json",
-      "snapshotCount": 10,
+      "snapshotCount": 11,
       "latest": {
         "targetDate": "2026-11-15",
-        "generatedAt": "2026-11-15T04:31:30+09:00",
+        "generatedAt": "2026-11-15T04:58:08+09:00",
         "runType": "intraday",
-        "path": "forecast_snapshots/2026-11-15/2026-11-15T04-31-30-09-00.json",
+        "path": "forecast_snapshots/2026-11-15/2026-11-15T04-58-08-09-00.json",
         "model": {
           "name": "lgbm_quantile_q50_intraday_residual",
           "version": "mvp-1",
@@ -602,11 +602,11 @@
           "artifactSha256": "c2914b699dc306c61c6eb8f777d99fdebf1f7336dbf83bd01d851156e8b0cdd3"
         },
         "peak": {
-          "forecastMw": 28983.1,
+          "forecastMw": 29128.7,
           "at": "2026-11-15T18:00:00+09:00",
           "interval": {
-            "p95Lower": 26338.9,
-            "p95Upper": 30635.7
+            "p95Lower": 26437.2,
+            "p95Upper": 30811.0
           }
         },
         "observedActualHoursAtGeneration": 4,
@@ -617,12 +617,12 @@
     {
       "date": "2026-11-16",
       "path": "forecast_snapshots/2026-11-16/index.json",
-      "snapshotCount": 2,
+      "snapshotCount": 3,
       "latest": {
         "targetDate": "2026-11-16",
-        "generatedAt": "2026-11-15T04:31:30+09:00",
+        "generatedAt": "2026-11-15T04:58:08+09:00",
         "runType": "intraday",
-        "path": "forecast_snapshots/2026-11-16/2026-11-15T04-31-30-09-00.json",
+        "path": "forecast_snapshots/2026-11-16/2026-11-15T04-58-08-09-00.json",
         "model": {
           "name": "lgbm_quantile_q50",
           "version": "mvp-1",
@@ -631,11 +631,11 @@
           "artifactSha256": "c2914b699dc306c61c6eb8f777d99fdebf1f7336dbf83bd01d851156e8b0cdd3"
         },
         "peak": {
-          "forecastMw": 35176.5,
+          "forecastMw": 35218.5,
           "at": "2026-11-16T17:00:00+09:00",
           "interval": {
-            "p95Lower": 32532.3,
-            "p95Upper": 36829.1
+            "p95Lower": 32574.3,
+            "p95Upper": 36871.1
           }
         },
         "observedActualHoursAtGeneration": 0,
