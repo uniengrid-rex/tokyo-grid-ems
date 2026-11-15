@@ -1,12 +1,12 @@
 {
   "schemaVersion": "1.0.0",
   "timezone": "Asia/Tokyo",
-  "generatedAt": "2026-11-15T19:42:07+09:00",
+  "generatedAt": "2026-11-16T02:18:04+09:00",
   "availability": "ok",
   "latest": {
     "schemaVersion": "1.0.0",
     "timezone": "Asia/Tokyo",
-    "generatedAt": "2026-11-15T19:42:07+09:00",
+    "generatedAt": "2026-11-16T02:18:04+09:00",
     "date": "2026-11-07",
     "availability": "ok",
     "model": {
@@ -176,68 +176,6 @@
     ]
   },
   "reports": [
-    {
-      "date": "2026-11-01",
-      "availability": "ok",
-      "model": {
-        "name": "lgbm_quantile_q50_intraday_residual",
-        "family": "lgbm_quantile_q50"
-      },
-      "summary": {
-        "comparableHours": 22,
-        "modelMaeMw": 412.7,
-        "tepcoMaeMw": 268.2,
-        "modelWapePct": 1.74,
-        "tepcoWapePct": 1.13,
-        "modelRmseMw": 510.2,
-        "tepcoRmseMw": 404.8,
-        "modelMaxErrorMw": 1301.3,
-        "tepcoMaxErrorMw": 1040.0,
-        "modelMaxErrorHour": 12,
-        "tepcoMaxErrorHour": 12,
-        "maeGapMw": 144.5,
-        "wapeGapPct": 0.61,
-        "verdict": "tepco_better",
-        "modelWins": 5,
-        "tepcoWins": 17,
-        "ties": 0,
-        "modelAdvantageHours": 5,
-        "tepcoAdvantageHours": 17,
-        "equalHours": 0,
-        "modelAdvantageRate": 0.227
-      },
-      "insights": [
-        {
-          "code": "tepco_closer_overall",
-          "severity": "warning",
-          "title": "TEPCO was closer overall.",
-          "evidence": {
-            "maeGapMw": 144.5,
-            "wapeGapPct": 0.61
-          }
-        },
-        {
-          "code": "large_single_hour_miss",
-          "severity": "warning",
-          "title": "One or more hours had a large model error.",
-          "evidence": {
-            "hour": 12,
-            "modelAbsErrorMw": 1301.3
-          }
-        },
-        {
-          "code": "sharp_model_rise_mismatch",
-          "severity": "warning",
-          "title": "The model line rose faster than actual demand.",
-          "evidence": {
-            "fromHour": 11,
-            "toHour": 12,
-            "modelDeltaMw": 672.0,
-            "actualDeltaMw": -1560.0
-          }
-        }
-      ]
-    },
     {
       "date": "2026-11-02",
       "availability": "ok",
