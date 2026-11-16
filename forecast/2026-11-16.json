@@ -165,51 +165,51 @@
     },
     {
       "ts": "2026-11-16T18:00:00+09:00",
-      "forecastMw": 32883.4,
-      "p95LowerMw": 30341.8,
-      "p95UpperMw": 34471.9,
-      "p99LowerMw": 27800.2,
-      "p99UpperMw": 36060.4
+      "forecastMw": 32636.8,
+      "p95LowerMw": 30288.7,
+      "p95UpperMw": 34104.4,
+      "p99LowerMw": 27940.6,
+      "p99UpperMw": 35572.0
     },
     {
       "ts": "2026-11-16T19:00:00+09:00",
-      "forecastMw": 31421.3,
-      "p95LowerMw": 29207.7,
-      "p95UpperMw": 32804.8,
-      "p99LowerMw": 26994.1,
-      "p99UpperMw": 34188.3
+      "forecastMw": 31243.1,
+      "p95LowerMw": 28964.9,
+      "p95UpperMw": 32667.0,
+      "p99LowerMw": 26686.7,
+      "p99UpperMw": 34090.9
     },
     {
       "ts": "2026-11-16T20:00:00+09:00",
-      "forecastMw": 30893.7,
-      "p95LowerMw": 29068.1,
-      "p95UpperMw": 32034.7,
-      "p99LowerMw": 27242.5,
-      "p99UpperMw": 33175.7
+      "forecastMw": 30408.9,
+      "p95LowerMw": 28717.5,
+      "p95UpperMw": 31466.0,
+      "p99LowerMw": 27026.1,
+      "p99UpperMw": 32523.1
     },
     {
       "ts": "2026-11-16T21:00:00+09:00",
-      "forecastMw": 29826.4,
-      "p95LowerMw": 27853.6,
-      "p95UpperMw": 31059.4,
-      "p99LowerMw": 25880.8,
-      "p99UpperMw": 32292.4
+      "forecastMw": 29412.8,
+      "p95LowerMw": 27738.8,
+      "p95UpperMw": 30769.8,
+      "p99LowerMw": 26064.8,
+      "p99UpperMw": 32126.8
     },
     {
       "ts": "2026-11-16T22:00:00+09:00",
-      "forecastMw": 28408.0,
-      "p95LowerMw": 26684.0,
-      "p95UpperMw": 29485.5,
-      "p99LowerMw": 24960.0,
-      "p99UpperMw": 30563.0
+      "forecastMw": 28296.2,
+      "p95LowerMw": 26581.0,
+      "p95UpperMw": 29368.2,
+      "p99LowerMw": 24865.8,
+      "p99UpperMw": 30440.2
     },
     {
       "ts": "2026-11-16T23:00:00+09:00",
-      "forecastMw": 26532.2,
-      "p95LowerMw": 25550.3,
-      "p95UpperMw": 27313.5,
-      "p99LowerMw": 24568.4,
-      "p99UpperMw": 28094.8
+      "forecastMw": 26525.6,
+      "p95LowerMw": 25673.9,
+      "p95UpperMw": 27306.8,
+      "p99LowerMw": 24822.2,
+      "p99UpperMw": 28088.0
     }
   ],
   "intervalCalibration": {
@@ -217,7 +217,7 @@
     "availability": "insufficient_history",
     "method": "lead_aware_conformal_target_width",
     "source": "finalized_actual_vs_issued_forecast",
-    "issuedAt": "2026-11-16T17:06:52+09:00",
+    "issuedAt": "2026-11-16T18:55:21+09:00",
     "artifactSha256": "c2914b699dc306c61c6eb8f777d99fdebf1f7336dbf83bd01d851156e8b0cdd3",
     "servingPolicyFingerprint": "ba4d14312e56659c46a87b8e9c13750b51e93334dcb59661b8d37e6f2d0647bc",
     "floorsMwByTimeBand": {},
@@ -533,7 +533,7 @@
           "application": "native_fallback"
         },
         "18": {
-          "leadBand": "0_2h",
+          "leadBand": null,
           "timeBand": "late_afternoon",
           "groups": {
             "same_regime": {
@@ -567,7 +567,7 @@
           "application": "native_fallback"
         },
         "20": {
-          "leadBand": "2_4h",
+          "leadBand": "0_2h",
           "timeBand": "evening",
           "groups": {
             "same_regime": {
@@ -601,7 +601,7 @@
           "application": "native_fallback"
         },
         "22": {
-          "leadBand": "4_8h",
+          "leadBand": "2_4h",
           "timeBand": "evening",
           "groups": {
             "same_regime": {
@@ -663,7 +663,9 @@
       12,
       13,
       14,
-      15
+      15,
+      16,
+      17
     ]
   }
 }
