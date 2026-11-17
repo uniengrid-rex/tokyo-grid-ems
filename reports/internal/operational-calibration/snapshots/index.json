@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1.0.0",
   "timezone": "Asia/Tokyo",
-  "generatedAt": "2026-11-18T07:42:17+09:00",
+  "generatedAt": "2026-11-18T07:53:03+09:00",
   "retentionDays": 14,
   "maxPerDay": 24,
   "dates": [
@@ -628,17 +628,17 @@
     {
       "date": "2026-11-18",
       "path": "reports/internal/operational-calibration/snapshots/2026-11-18/index.json",
-      "snapshotCount": 2,
+      "snapshotCount": 3,
       "latest": {
         "date": "2026-11-18",
-        "generatedAt": "2026-11-18T07:42:17+09:00",
-        "path": "reports/internal/operational-calibration/snapshots/2026-11-18/2026-11-18T07-42-17-09-00.json",
+        "generatedAt": "2026-11-18T07:53:03+09:00",
+        "path": "reports/internal/operational-calibration/snapshots/2026-11-18/2026-11-18T07-53-03-09-00.json",
         "model": "lgbm_quantile_q50",
         "applied": true,
         "observedHours": 7,
         "fallbackActualHours": 0,
         "lastObservedHour": 6,
-        "baseAdjustmentMw": 401.4,
+        "baseAdjustmentMw": 348.7,
         "appliedDayBiasMw": 0.0,
         "appliedRegimeReason": [
           "intraday_observed_residual"
@@ -669,7 +669,7 @@
         "negResidualRecoveryDampingApplied": false,
         "residualCarryoverHours": 17,
         "changedForecastHours": 24,
-        "maxAbsCalibrationDeltaMw": 401.4
+        "maxAbsCalibrationDeltaMw": 348.7
       }
     }
   ]
