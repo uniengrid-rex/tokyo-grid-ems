@@ -173,43 +173,43 @@
     },
     {
       "ts": "2026-11-18T19:00:00+09:00",
-      "forecastMw": 31502.6,
-      "p95LowerMw": 29573.7,
-      "p95UpperMw": 34075.2,
-      "p99LowerMw": 27644.8,
-      "p99UpperMw": 36647.8
+      "forecastMw": 31922.5,
+      "p95LowerMw": 29946.9,
+      "p95UpperMw": 34802.1,
+      "p99LowerMw": 27971.3,
+      "p99UpperMw": 37681.7
     },
     {
       "ts": "2026-11-18T20:00:00+09:00",
-      "forecastMw": 29813.4,
-      "p95LowerMw": 28412.2,
-      "p95UpperMw": 32055.2,
-      "p99LowerMw": 27011.0,
-      "p99UpperMw": 34297.0
+      "forecastMw": 30561.6,
+      "p95LowerMw": 29040.1,
+      "p95UpperMw": 32996.0,
+      "p99LowerMw": 27518.6,
+      "p99UpperMw": 35430.4
     },
     {
       "ts": "2026-11-18T21:00:00+09:00",
-      "forecastMw": 29225.3,
-      "p95LowerMw": 27696.1,
-      "p95UpperMw": 30828.7,
-      "p99LowerMw": 26166.9,
-      "p99UpperMw": 32432.1
+      "forecastMw": 29031.8,
+      "p95LowerMw": 27913.2,
+      "p95UpperMw": 30821.5,
+      "p99LowerMw": 26794.6,
+      "p99UpperMw": 32611.2
     },
     {
       "ts": "2026-11-18T22:00:00+09:00",
-      "forecastMw": 28140.3,
-      "p95LowerMw": 26554.8,
-      "p95UpperMw": 29131.2,
-      "p99LowerMw": 24969.3,
-      "p99UpperMw": 30122.1
+      "forecastMw": 27996.3,
+      "p95LowerMw": 26590.9,
+      "p95UpperMw": 28936.3,
+      "p99LowerMw": 25185.5,
+      "p99UpperMw": 29876.3
     },
     {
       "ts": "2026-11-18T23:00:00+09:00",
-      "forecastMw": 26045.3,
-      "p95LowerMw": 24665.9,
-      "p95UpperMw": 26907.4,
-      "p99LowerMw": 23286.5,
-      "p99UpperMw": 27769.5
+      "forecastMw": 26033.0,
+      "p95LowerMw": 24643.0,
+      "p95UpperMw": 26901.8,
+      "p99LowerMw": 23253.0,
+      "p99UpperMw": 27770.5
     }
   ],
   "intervalCalibration": {
@@ -217,7 +217,7 @@
     "availability": "insufficient_history",
     "method": "lead_aware_conformal_target_width",
     "source": "finalized_actual_vs_issued_forecast",
-    "issuedAt": "2026-11-18T17:39:08+09:00",
+    "issuedAt": "2026-11-18T19:24:01+09:00",
     "artifactSha256": "c2914b699dc306c61c6eb8f777d99fdebf1f7336dbf83bd01d851156e8b0cdd3",
     "servingPolicyFingerprint": "ba4d14312e56659c46a87b8e9c13750b51e93334dcb59661b8d37e6f2d0647bc",
     "floorsMwByTimeBand": {},
@@ -533,7 +533,7 @@
           "application": "native_fallback"
         },
         "18": {
-          "leadBand": "0_2h",
+          "leadBand": null,
           "timeBand": "late_afternoon",
           "groups": {
             "same_regime": {
@@ -550,7 +550,7 @@
           "application": "native_fallback"
         },
         "19": {
-          "leadBand": "0_2h",
+          "leadBand": null,
           "timeBand": "evening",
           "groups": {
             "same_regime": {
@@ -567,7 +567,7 @@
           "application": "native_fallback"
         },
         "20": {
-          "leadBand": "2_4h",
+          "leadBand": "0_2h",
           "timeBand": "evening",
           "groups": {
             "same_regime": {
@@ -584,7 +584,7 @@
           "application": "native_fallback"
         },
         "21": {
-          "leadBand": "2_4h",
+          "leadBand": "0_2h",
           "timeBand": "evening",
           "groups": {
             "same_regime": {
@@ -601,7 +601,7 @@
           "application": "native_fallback"
         },
         "22": {
-          "leadBand": "4_8h",
+          "leadBand": "2_4h",
           "timeBand": "evening",
           "groups": {
             "same_regime": {
@@ -618,7 +618,7 @@
           "application": "native_fallback"
         },
         "23": {
-          "leadBand": "4_8h",
+          "leadBand": "2_4h",
           "timeBand": "evening",
           "groups": {
             "same_regime": {
@@ -664,7 +664,9 @@
       13,
       14,
       15,
-      16
+      16,
+      17,
+      18
     ]
   }
 }
