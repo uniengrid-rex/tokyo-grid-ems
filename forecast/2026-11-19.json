@@ -181,35 +181,35 @@
     },
     {
       "ts": "2026-11-19T20:00:00+09:00",
-      "forecastMw": 30526.0,
-      "p95LowerMw": 28703.9,
-      "p95UpperMw": 31963.8,
-      "p99LowerMw": 26881.8,
-      "p99UpperMw": 33401.6
+      "forecastMw": 29836.3,
+      "p95LowerMw": 27920.4,
+      "p95UpperMw": 31302.4,
+      "p99LowerMw": 26004.5,
+      "p99UpperMw": 32768.5
     },
     {
       "ts": "2026-11-19T21:00:00+09:00",
-      "forecastMw": 29570.1,
-      "p95LowerMw": 27681.8,
-      "p95UpperMw": 31090.9,
-      "p99LowerMw": 25793.6,
-      "p99UpperMw": 32611.7
+      "forecastMw": 28690.2,
+      "p95LowerMw": 26805.3,
+      "p95UpperMw": 30203.7,
+      "p99LowerMw": 24920.4,
+      "p99UpperMw": 31717.2
     },
     {
       "ts": "2026-11-19T22:00:00+09:00",
-      "forecastMw": 28154.9,
-      "p95LowerMw": 26940.8,
-      "p95UpperMw": 29387.6,
-      "p99LowerMw": 25726.7,
-      "p99UpperMw": 30620.3
+      "forecastMw": 28173.4,
+      "p95LowerMw": 26963.8,
+      "p95UpperMw": 29402.5,
+      "p99LowerMw": 25754.2,
+      "p99UpperMw": 30631.6
     },
     {
       "ts": "2026-11-19T23:00:00+09:00",
-      "forecastMw": 26621.3,
-      "p95LowerMw": 25682.3,
-      "p95UpperMw": 27522.1,
-      "p99LowerMw": 24743.3,
-      "p99UpperMw": 28422.9
+      "forecastMw": 26642.4,
+      "p95LowerMw": 25685.4,
+      "p95UpperMw": 27805.0,
+      "p99LowerMw": 24728.4,
+      "p99UpperMw": 28967.6
     }
   ],
   "intervalCalibration": {
@@ -217,7 +217,7 @@
     "availability": "insufficient_history",
     "method": "lead_aware_conformal_target_width",
     "source": "finalized_actual_vs_issued_forecast",
-    "issuedAt": "2026-11-19T19:32:47+09:00",
+    "issuedAt": "2026-11-19T20:27:33+09:00",
     "artifactSha256": "c2914b699dc306c61c6eb8f777d99fdebf1f7336dbf83bd01d851156e8b0cdd3",
     "servingPolicyFingerprint": "ba4d14312e56659c46a87b8e9c13750b51e93334dcb59661b8d37e6f2d0647bc",
     "floorsMwByTimeBand": {},
@@ -567,7 +567,7 @@
           "application": "native_fallback"
         },
         "20": {
-          "leadBand": "0_2h",
+          "leadBand": null,
           "timeBand": "evening",
           "groups": {
             "same_regime": {
@@ -601,7 +601,7 @@
           "application": "native_fallback"
         },
         "22": {
-          "leadBand": "2_4h",
+          "leadBand": "0_2h",
           "timeBand": "evening",
           "groups": {
             "same_regime": {
@@ -666,7 +666,8 @@
       15,
       16,
       17,
-      18
+      18,
+      19
     ]
   }
 }
