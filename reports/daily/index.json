@@ -1,12 +1,12 @@
 {
   "schemaVersion": "1.0.0",
   "timezone": "Asia/Tokyo",
-  "generatedAt": "2026-11-21T19:54:45+09:00",
+  "generatedAt": "2026-11-22T02:39:05+09:00",
   "availability": "ok",
   "latest": {
     "schemaVersion": "1.0.0",
     "timezone": "Asia/Tokyo",
-    "generatedAt": "2026-11-21T19:54:45+09:00",
+    "generatedAt": "2026-11-22T02:39:05+09:00",
     "date": "2026-11-20",
     "availability": "ok",
     "model": {
@@ -208,57 +208,6 @@
     ]
   },
   "reports": [
-    {
-      "date": "2026-11-07",
-      "availability": "ok",
-      "model": {
-        "name": "lgbm_quantile_q50_intraday_residual",
-        "family": "lgbm_quantile_q50"
-      },
-      "summary": {
-        "comparableHours": 22,
-        "modelMaeMw": 444.8,
-        "tepcoMaeMw": 147.3,
-        "modelWapePct": 1.81,
-        "tepcoWapePct": 0.6,
-        "modelRmseMw": 530.1,
-        "tepcoRmseMw": 194.7,
-        "modelMaxErrorMw": 973.4,
-        "tepcoMaxErrorMw": 440.0,
-        "modelMaxErrorHour": 9,
-        "tepcoMaxErrorHour": 10,
-        "maeGapMw": 297.5,
-        "wapeGapPct": 1.21,
-        "verdict": "tepco_better",
-        "modelWins": 4,
-        "tepcoWins": 18,
-        "ties": 0,
-        "modelAdvantageHours": 4,
-        "tepcoAdvantageHours": 18,
-        "equalHours": 0,
-        "modelAdvantageRate": 0.182
-      },
-      "insights": [
-        {
-          "code": "tepco_closer_overall",
-          "severity": "warning",
-          "title": "TEPCO was closer overall.",
-          "evidence": {
-            "maeGapMw": 297.5,
-            "wapeGapPct": 1.21
-          }
-        },
-        {
-          "code": "morning_ramp_overestimated",
-          "severity": "info",
-          "title": "Morning demand was lower than the model expected.",
-          "evidence": {
-            "band": "06-10",
-            "modelBiasMw": 599.3
-          }
-        }
-      ]
-    },
     {
       "date": "2026-11-17",
       "availability": "ok",
