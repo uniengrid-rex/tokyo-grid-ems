@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1.0.0",
   "timezone": "Asia/Tokyo",
-  "generatedAt": "2026-11-23T02:55:19+09:00",
+  "generatedAt": "2026-11-23T05:51:22+09:00",
   "retentionDays": 14,
   "maxPerDay": 24,
   "dates": [
@@ -632,27 +632,27 @@
     {
       "date": "2026-11-23",
       "path": "reports/internal/operational-calibration/snapshots/2026-11-23/index.json",
-      "snapshotCount": 1,
+      "snapshotCount": 2,
       "latest": {
         "date": "2026-11-23",
-        "generatedAt": "2026-11-23T02:55:19+09:00",
-        "path": "reports/internal/operational-calibration/snapshots/2026-11-23/2026-11-23T02-55-19-09-00.json",
+        "generatedAt": "2026-11-23T05:51:22+09:00",
+        "path": "reports/internal/operational-calibration/snapshots/2026-11-23/2026-11-23T05-51-22-09-00.json",
         "model": "lgbm_quantile_q50",
         "applied": true,
-        "observedHours": 2,
+        "observedHours": 5,
         "fallbackActualHours": 0,
-        "lastObservedHour": 1,
-        "baseAdjustmentMw": 0.0,
+        "lastObservedHour": 4,
+        "baseAdjustmentMw": 191.0,
         "appliedDayBiasMw": 0.0,
         "appliedRegimeReason": [
-          "day_boundary_residual_carryover"
+          "intraday_observed_residual"
         ],
         "sourceConfidence": {
-          "level": "partial_observed",
-          "actualHours": 2,
-          "usableObservedHours": 2,
+          "level": "observed",
+          "actualHours": 5,
+          "usableObservedHours": 5,
           "fallbackIgnoredHours": 0,
-          "missingHours": 22
+          "missingHours": 19
         },
         "businessTypeTransitionPriorApplied": false,
         "businessTypeTransitionApplied": false,
@@ -671,9 +671,9 @@
         "eveningDeclineContinuityGuardApplied": false,
         "eveningDeclineContinuityMaxReductionMw": 0.0,
         "negResidualRecoveryDampingApplied": false,
-        "residualCarryoverHours": 0,
+        "residualCarryoverHours": 19,
         "changedForecastHours": 24,
-        "maxAbsCalibrationDeltaMw": 57.0
+        "maxAbsCalibrationDeltaMw": 191.0
       }
     }
   ]
