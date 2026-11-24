@@ -189,27 +189,27 @@
     },
     {
       "ts": "2026-11-24T21:00:00+09:00",
-      "forecastMw": 30826.4,
-      "p95LowerMw": 28939.9,
-      "p95UpperMw": 32005.4,
-      "p99LowerMw": 27053.4,
-      "p99UpperMw": 33184.4
+      "forecastMw": 31150.0,
+      "p95LowerMw": 28776.6,
+      "p95UpperMw": 32633.4,
+      "p99LowerMw": 26403.2,
+      "p99UpperMw": 34116.8
     },
     {
       "ts": "2026-11-24T22:00:00+09:00",
-      "forecastMw": 30413.4,
-      "p95LowerMw": 29002.4,
-      "p95UpperMw": 31295.3,
-      "p99LowerMw": 27591.4,
-      "p99UpperMw": 32177.2
+      "forecastMw": 30342.2,
+      "p95LowerMw": 29121.8,
+      "p95UpperMw": 31123.5,
+      "p99LowerMw": 27901.4,
+      "p99UpperMw": 31904.8
     },
     {
       "ts": "2026-11-24T23:00:00+09:00",
-      "forecastMw": 28162.8,
-      "p95LowerMw": 27249.3,
-      "p95UpperMw": 28944.0,
-      "p99LowerMw": 26335.8,
-      "p99UpperMw": 29725.2
+      "forecastMw": 28200.3,
+      "p95LowerMw": 27264.4,
+      "p95UpperMw": 28981.5,
+      "p99LowerMw": 26328.5,
+      "p99UpperMw": 29762.8
     }
   ],
   "intervalCalibration": {
@@ -217,7 +217,7 @@
     "availability": "insufficient_history",
     "method": "lead_aware_conformal_target_width",
     "source": "finalized_actual_vs_issued_forecast",
-    "issuedAt": "2026-11-24T20:07:59+09:00",
+    "issuedAt": "2026-11-24T21:39:43+09:00",
     "artifactSha256": "c2914b699dc306c61c6eb8f777d99fdebf1f7336dbf83bd01d851156e8b0cdd3",
     "servingPolicyFingerprint": "ba4d14312e56659c46a87b8e9c13750b51e93334dcb59661b8d37e6f2d0647bc",
     "floorsMwByTimeBand": {},
@@ -584,7 +584,7 @@
           "application": "native_fallback"
         },
         "21": {
-          "leadBand": "0_2h",
+          "leadBand": null,
           "timeBand": "evening",
           "groups": {
             "same_regime": {
@@ -618,7 +618,7 @@
           "application": "native_fallback"
         },
         "23": {
-          "leadBand": "2_4h",
+          "leadBand": "0_2h",
           "timeBand": "evening",
           "groups": {
             "same_regime": {
@@ -667,7 +667,8 @@
       16,
       17,
       18,
-      19
+      19,
+      20
     ]
   }
 }
