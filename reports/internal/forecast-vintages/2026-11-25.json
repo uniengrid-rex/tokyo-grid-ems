@@ -1,0 +1,127 @@
+{
+  "schemaVersion": "1.0.0",
+  "timezone": "Asia/Tokyo",
+  "targetDate": "2026-11-25",
+  "sourceContract": {
+    "tepco": "published_forecast_captured_at_run_time",
+    "model": "served_forecast_captured_at_same_run_time",
+    "sourceMayRevisePastValues": true,
+    "pastRevisionsApplied": false
+  },
+  "snapshots": [
+    {
+      "capturedAt": "2026-11-25T08:40:17+09:00",
+      "captureOrigin": "live_pipeline",
+      "runType": "intraday",
+      "modelName": "lgbm_quantile_q50_intraday_residual",
+      "series": [
+        {
+          "ts": "2026-11-25T09:00:00+09:00",
+          "hour": 9,
+          "leadMinutes": 19.7,
+          "modelForecastMw": 37823.5,
+          "tepcoForecastMw": 36030.0
+        },
+        {
+          "ts": "2026-11-25T10:00:00+09:00",
+          "hour": 10,
+          "leadMinutes": 79.7,
+          "modelForecastMw": 37515.0,
+          "tepcoForecastMw": 35530.0
+        },
+        {
+          "ts": "2026-11-25T11:00:00+09:00",
+          "hour": 11,
+          "leadMinutes": 139.7,
+          "modelForecastMw": 36150.4,
+          "tepcoForecastMw": 34840.0
+        },
+        {
+          "ts": "2026-11-25T12:00:00+09:00",
+          "hour": 12,
+          "leadMinutes": 199.7,
+          "modelForecastMw": 34508.5,
+          "tepcoForecastMw": 33600.0
+        },
+        {
+          "ts": "2026-11-25T13:00:00+09:00",
+          "hour": 13,
+          "leadMinutes": 259.7,
+          "modelForecastMw": 34669.5,
+          "tepcoForecastMw": 34410.0
+        },
+        {
+          "ts": "2026-11-25T14:00:00+09:00",
+          "hour": 14,
+          "leadMinutes": 319.7,
+          "modelForecastMw": 34611.4,
+          "tepcoForecastMw": 34270.0
+        },
+        {
+          "ts": "2026-11-25T15:00:00+09:00",
+          "hour": 15,
+          "leadMinutes": 379.7,
+          "modelForecastMw": 34507.3,
+          "tepcoForecastMw": 34680.0
+        },
+        {
+          "ts": "2026-11-25T16:00:00+09:00",
+          "hour": 16,
+          "leadMinutes": 439.7,
+          "modelForecastMw": 35458.0,
+          "tepcoForecastMw": 36030.0
+        },
+        {
+          "ts": "2026-11-25T17:00:00+09:00",
+          "hour": 17,
+          "leadMinutes": 499.7,
+          "modelForecastMw": 36267.9,
+          "tepcoForecastMw": 37170.0
+        },
+        {
+          "ts": "2026-11-25T18:00:00+09:00",
+          "hour": 18,
+          "leadMinutes": 559.7,
+          "modelForecastMw": 35950.4,
+          "tepcoForecastMw": 36880.0
+        },
+        {
+          "ts": "2026-11-25T19:00:00+09:00",
+          "hour": 19,
+          "leadMinutes": 619.7,
+          "modelForecastMw": 35591.0,
+          "tepcoForecastMw": 36090.0
+        },
+        {
+          "ts": "2026-11-25T20:00:00+09:00",
+          "hour": 20,
+          "leadMinutes": 679.7,
+          "modelForecastMw": 33806.1,
+          "tepcoForecastMw": 35040.0
+        },
+        {
+          "ts": "2026-11-25T21:00:00+09:00",
+          "hour": 21,
+          "leadMinutes": 739.7,
+          "modelForecastMw": 31851.1,
+          "tepcoForecastMw": 33400.0
+        },
+        {
+          "ts": "2026-11-25T22:00:00+09:00",
+          "hour": 22,
+          "leadMinutes": 799.7,
+          "modelForecastMw": 30419.5,
+          "tepcoForecastMw": 31710.0
+        },
+        {
+          "ts": "2026-11-25T23:00:00+09:00",
+          "hour": 23,
+          "leadMinutes": 859.7,
+          "modelForecastMw": 28639.0,
+          "tepcoForecastMw": 29710.0
+        }
+      ]
+    }
+  ],
+  "snapshotCount": 1
+}
