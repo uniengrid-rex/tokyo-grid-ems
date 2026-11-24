@@ -181,35 +181,35 @@
     },
     {
       "ts": "2026-11-24T20:00:00+09:00",
-      "forecastMw": 33127.9,
-      "p95LowerMw": 31147.4,
-      "p95UpperMw": 34577.3,
-      "p99LowerMw": 29166.9,
-      "p99UpperMw": 36026.7
+      "forecastMw": 33577.8,
+      "p95LowerMw": 30933.6,
+      "p95UpperMw": 35230.4,
+      "p99LowerMw": 28289.4,
+      "p99UpperMw": 36883.0
     },
     {
       "ts": "2026-11-24T21:00:00+09:00",
-      "forecastMw": 32003.6,
-      "p95LowerMw": 30154.1,
-      "p95UpperMw": 33159.6,
-      "p99LowerMw": 28304.6,
-      "p99UpperMw": 34315.6
+      "forecastMw": 30826.4,
+      "p95LowerMw": 28939.9,
+      "p95UpperMw": 32005.4,
+      "p99LowerMw": 27053.4,
+      "p99UpperMw": 33184.4
     },
     {
       "ts": "2026-11-24T22:00:00+09:00",
-      "forecastMw": 30943.6,
-      "p95LowerMw": 29267.4,
-      "p95UpperMw": 31991.2,
-      "p99LowerMw": 27591.2,
-      "p99UpperMw": 33038.8
+      "forecastMw": 30413.4,
+      "p95LowerMw": 29002.4,
+      "p95UpperMw": 31295.3,
+      "p99LowerMw": 27591.4,
+      "p99UpperMw": 32177.2
     },
     {
       "ts": "2026-11-24T23:00:00+09:00",
-      "forecastMw": 28768.6,
-      "p95LowerMw": 27497.6,
-      "p95UpperMw": 29563.0,
-      "p99LowerMw": 26226.6,
-      "p99UpperMw": 30357.4
+      "forecastMw": 28162.8,
+      "p95LowerMw": 27249.3,
+      "p95UpperMw": 28944.0,
+      "p99LowerMw": 26335.8,
+      "p99UpperMw": 29725.2
     }
   ],
   "intervalCalibration": {
@@ -217,7 +217,7 @@
     "availability": "insufficient_history",
     "method": "lead_aware_conformal_target_width",
     "source": "finalized_actual_vs_issued_forecast",
-    "issuedAt": "2026-11-24T14:22:08+09:00",
+    "issuedAt": "2026-11-24T20:07:59+09:00",
     "artifactSha256": "c2914b699dc306c61c6eb8f777d99fdebf1f7336dbf83bd01d851156e8b0cdd3",
     "servingPolicyFingerprint": "ba4d14312e56659c46a87b8e9c13750b51e93334dcb59661b8d37e6f2d0647bc",
     "floorsMwByTimeBand": {},
@@ -482,7 +482,7 @@
           "application": "native_fallback"
         },
         "15": {
-          "leadBand": "0_2h",
+          "leadBand": null,
           "timeBand": "daytime",
           "groups": {
             "same_regime": {
@@ -499,7 +499,7 @@
           "application": "native_fallback"
         },
         "16": {
-          "leadBand": "0_2h",
+          "leadBand": null,
           "timeBand": "late_afternoon",
           "groups": {
             "same_regime": {
@@ -516,7 +516,7 @@
           "application": "native_fallback"
         },
         "17": {
-          "leadBand": "2_4h",
+          "leadBand": null,
           "timeBand": "late_afternoon",
           "groups": {
             "same_regime": {
@@ -533,7 +533,7 @@
           "application": "native_fallback"
         },
         "18": {
-          "leadBand": "2_4h",
+          "leadBand": null,
           "timeBand": "late_afternoon",
           "groups": {
             "same_regime": {
@@ -550,7 +550,7 @@
           "application": "native_fallback"
         },
         "19": {
-          "leadBand": "4_8h",
+          "leadBand": null,
           "timeBand": "evening",
           "groups": {
             "same_regime": {
@@ -567,7 +567,7 @@
           "application": "native_fallback"
         },
         "20": {
-          "leadBand": "4_8h",
+          "leadBand": null,
           "timeBand": "evening",
           "groups": {
             "same_regime": {
@@ -584,7 +584,7 @@
           "application": "native_fallback"
         },
         "21": {
-          "leadBand": "4_8h",
+          "leadBand": "0_2h",
           "timeBand": "evening",
           "groups": {
             "same_regime": {
@@ -601,7 +601,7 @@
           "application": "native_fallback"
         },
         "22": {
-          "leadBand": "4_8h",
+          "leadBand": "0_2h",
           "timeBand": "evening",
           "groups": {
             "same_regime": {
@@ -618,7 +618,7 @@
           "application": "native_fallback"
         },
         "23": {
-          "leadBand": "8_24h",
+          "leadBand": "2_4h",
           "timeBand": "evening",
           "groups": {
             "same_regime": {
@@ -661,7 +661,13 @@
       10,
       11,
       12,
-      13
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
     ]
   }
 }
