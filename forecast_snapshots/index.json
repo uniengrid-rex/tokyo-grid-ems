@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1.0.0",
   "timezone": "Asia/Tokyo",
-  "generatedAt": "2026-11-24T10:56:59+09:00",
+  "generatedAt": "2026-11-24T11:13:26+09:00",
   "retentionDays": 21,
   "maxPerDay": 16,
   "dates": [
@@ -588,12 +588,12 @@
     {
       "date": "2026-11-24",
       "path": "forecast_snapshots/2026-11-24/index.json",
-      "snapshotCount": 10,
+      "snapshotCount": 11,
       "latest": {
         "targetDate": "2026-11-24",
-        "generatedAt": "2026-11-24T10:56:59+09:00",
+        "generatedAt": "2026-11-24T11:13:26+09:00",
         "runType": "intraday",
-        "path": "forecast_snapshots/2026-11-24/2026-11-24T10-56-59-09-00.json",
+        "path": "forecast_snapshots/2026-11-24/2026-11-24T11-13-26-09-00.json",
         "model": {
           "name": "lgbm_quantile_q50_intraday_residual",
           "version": "mvp-1",
@@ -609,20 +609,20 @@
             "p95Upper": 38806.1
           }
         },
-        "observedActualHoursAtGeneration": 10,
+        "observedActualHoursAtGeneration": 11,
         "fallbackActualHoursAtGeneration": 0,
-        "lastObservedActualHour": 9
+        "lastObservedActualHour": 10
       }
     },
     {
       "date": "2026-11-25",
       "path": "forecast_snapshots/2026-11-25/index.json",
-      "snapshotCount": 2,
+      "snapshotCount": 3,
       "latest": {
         "targetDate": "2026-11-25",
-        "generatedAt": "2026-11-24T10:56:59+09:00",
+        "generatedAt": "2026-11-24T11:13:26+09:00",
         "runType": "intraday",
-        "path": "forecast_snapshots/2026-11-25/2026-11-24T10-56-59-09-00.json",
+        "path": "forecast_snapshots/2026-11-25/2026-11-24T11-13-26-09-00.json",
         "model": {
           "name": "lgbm_quantile_q50",
           "version": "mvp-1",
@@ -631,11 +631,11 @@
           "artifactSha256": "c2914b699dc306c61c6eb8f777d99fdebf1f7336dbf83bd01d851156e8b0cdd3"
         },
         "peak": {
-          "forecastMw": 37479.6,
+          "forecastMw": 37702.7,
           "at": "2026-11-25T09:00:00+09:00",
           "interval": {
-            "p95Lower": 33729.6,
-            "p95Upper": 40883.0
+            "p95Lower": 33952.7,
+            "p95Upper": 40875.2
           }
         },
         "observedActualHoursAtGeneration": 0,
