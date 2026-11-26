@@ -25,6 +25,7 @@ on:
   workflow_dispatch:
 
 permissions:
+  actions: read
   contents: write
   pages: write
   id-token: write
@@ -38,7 +39,7 @@ jobs:
     runs-on: ubuntu-latest
     environment:
       name: github-pages
-      url: ${{ steps.deploy.outputs.page_url }}
+      url: ${{ steps.deploy_retry.outputs.page_url || steps.deploy.outputs.page_url }}
 
     steps:
       - uses: actions/checkout@v6
@@ -132,8 +133,53 @@ jobs:
           VITE_BASE_PATH: /${{ github.event.repository.name }}/
 
       - uses: actions/upload-pages-artifact@v5
+        id: upload
         with:
           path: web/dist
 
+      # Artifact listing can lag behind a successful upload. Poll the current
+      # run for the exact uploaded artifact rather than relying on a fixed delay.
+      - name: Wait for Pages artifact
+        uses: actions/github-script@v8
+        env:
+          PAGES_ARTIFACT_ID: ${{ steps.upload.outputs.artifact_id }}
+        with:
+          script: |
+            const expectedId = Number(process.env.PAGES_ARTIFACT_ID);
+            if (!Number.isSafeInteger(expectedId) || expectedId <= 0) {
+              throw new Error('Pages upload did not return a valid artifact ID');
+            }
+            for (let attempt = 1; attempt <= 12; attempt++) {
+              const artifacts = await github.paginate(
+                github.rest.actions.listWorkflowRunArtifacts,
+                { ...context.repo, run_id: context.runId, per_page: 100 }
+              );
+              if (artifacts.some(artifact =>
+                artifact.id === expectedId &&
+                artifact.name === 'github-pages' &&
+                !artifact.expired && artifact.size_in_bytes > 0
+              )) {
+                core.info('Pages artifact is available');
+                return;
+              }
+              if (attempt < 12) {
+                core.info('Waiting for Pages artifact visibility (' + attempt + '/12)');
+                await new Promise(resolve => setTimeout(resolve, 10000));
+              }
+            }
+            throw new Error('Uploaded Pages artifact was not visible after 12 checks');
+
       - uses: actions/deploy-pages@v5
         id: deploy
+        continue-on-error: true
+
+      # deploy-pages uses a separate artifact service, which can also lag.
+      # Keep the final attempt fatal so persistent deployment failures still alert.
+      - name: Wait before retrying Pages deployment
+        if: ${{ failure() == false && steps.deploy.outcome == 'failure' }}
+        run: sleep 30
+
+      - name: Retry Pages deployment
+        if: ${{ failure() == false && steps.deploy.outcome == 'failure' }}
+        uses: actions/deploy-pages@v5
+        id: deploy_retry
